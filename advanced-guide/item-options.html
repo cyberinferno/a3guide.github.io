@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta charset="UTF-8">
+<meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#D0322C">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Item Options - Advanced Guide - A3 Guide</title>
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=PT+Sans">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+
+<link rel="stylesheet" type="text/css" href="../css/styles.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="../js/scroll.js"></script>
+</head>
+<body>
+<div id="maincontent">
+<div class="container-fluid page-wrap p-0">
+
+<div class="logo h-auto text-center text-lg-left pl-lg-5 pb-lg-5"><img src="../images/logo.png" class="img-fluid"></div>
+
+
+
+<nav class="navbar mainnav navbar-expand-lg navbar-dark">
+<span class="navbar-brand m-0 p-0 pt-2"><div class="h2text d-lg-none">Advanced Guide</div></span>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav w-100 mainnavul pb-0">
+<li class="nav-item flex-fill">
+<a class="nav-link" href="../installing/index.html">Installing</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../characters/index.html">Characters</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../beginner-guide/index.html">Beginner Guide</a>
+</li><li class="nav-item flex-fill active">
+<a class="nav-link" href="index.html">Advanced Guide</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../weapons/index.html">Weapons</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../armors/index.html">Armors</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../items/index.html">Items</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../skills/index.html">Skills</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../maps/index.html">Maps</a>
+</li><li class="nav-item flex-fill ">
+<a class="nav-link" href="../quests/index.html">Quests</a>
+</li> </ul>
+</div>
+</nav>
+
+
+<div class="pane">
+<div class="pagetitle pt-2 pb-2"><div class="d-none d-lg-block">Advanced Guide</div></div>
+<div class="container-fluid p-0 m-0">
+<script language="javascript">
+$(document).ready(function()
+{
+     TooltipBind();
+});
+function TooltipBind() {
+	$('.itempopup').each(function() {
+		 $(this).tooltip({
+				html: true,
+				animation: true,
+				trigger: 'hover',
+				title: $('#' +  $(this).attr('name')).html(),
+				placement: 'bottom',
+				boundary: 'viewport',
+				container: 'body'
+		 });
+ });
+}
+</script>
+<div class="row m-0">
+<div class="vertnavbar col-lg-4 p-0 m-0">
+<nav class="navbar vertnav mainnav navbar-expand-lg navbar-dark align-items-start">
+<span class="navbar-brand m-0 p-0 pt-2 navtext d-lg-none text-wrap">Item Options</span>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav1">
+<ul class="navbar-nav w-100 mainnavul pb-0 flex-column">
+<li class="nav-item flex-fill">
+<a class="nav-link" href="player-killing.html">Player Killing</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="mercenaries.html">Mercenaries</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="passive-skills.html">Passive Skills</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="item-combination.html">Item Combination</a>
+</li><li class="nav-item flex-fill active">
+<a class="nav-link" href="item-options.html">Item Options</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="item-gem-slotting.html">Item Gem Slotting</a>
+</li> </ul>
+</div>
+</nav>
+</div>
+<div class="pageinfo col-lg-8 col-md-12 p-2 m-0"><div class="h2text d-none d-lg-block mb-2">Item Options</div><div style="margin: 0px 10px 10px 10px;"> <h4>What are Item Options</h4>
+<p>Items like Weapons, Armors and Shields have the ability to have additional options which provide benfit to the wearer. These options are sometimes present by default and sometimes are required to be added manually through several procedures.</p>
+<p>Item options can be added by using <span>Item Combinations</span> or <span>Item Gem Slotting</span></p>
+<h4>Default Item Options</h4>
+<p>Any weapons or armors which are created with combinations will not bear any options. They will be Level 1 only. Items acquired through hunting carry random options and can be revealed after Identification.</p>
+<h4>Basic Options</h4>
+<p>Basic options consist of the following.</p>
+<div style="margin-left: 20px;">
+<h6><font color="#FFF300">Blessing</font></h6>
+<div style="margin-left: 20px;">
+<p>Having the blessing option on the Items increases the success rate of Combinations and Item Gem Slotting associated with the item.</p>
+</div>
+<h6><font color="#FFF300">Item Mounting requirement reduced</font></h6>
+<div style="margin-left: 20px;">
+<p>Having this item will benefit you by decreasing the Strength, Dexterity and Intelligence requirement for wearing the item. This option can be 10%, 20% or 30%.</p>
+</div>
+<h6><font color="#49FF00">Additional Attack / Additional Defense</font></h6>
+<div style="margin-left: 20px;">
+<p>Additional Attack and Additional Defense can be added to the Weapons, Armors and Shields. The value of the added attack or defense is fixed and depends on the grade of the item.</p>
+<p>Additional Attack can be added to Weapons only. Additional Defense can be added to all Armors and Shields.</p>
+</div>
+</div>
+<h4>Helmet Options</h4>
+<div align="center" style="margin-bottom: 20px;"><img src="../images/articles/HelmetOptions.jpg"></div>
+ <div style="margin-left: 20px;">
+<h6><font color="#00B9FF">MP Absorption</font></h6>
+<div style="margin-left: 20px;">
+<p>When being attacked by monsters, MP Absorption provides additional MP for each attack dealt.</p>
+</div>
+<h6><font color="#FF5D00">HP Absorption</font></h6>
+<div style="margin-left: 20px;">
+<p>When being attacked by monsters, HP Absorption provides additional HP for each attack dealt.</p>
+</div>
+<h6><font color="#C3C3C3">HP/MP Absorption for Skills</font></h6>
+<div style="margin-left: 20px;">
+<p>Reduces the HP/MP utilization for skills.</p>
+</div>
+</div>
+<h4>Armor Options</h4>
+<div align="center" style="margin-bottom: 20px;"><img src="../images/articles/ArmorOptions.jpg"></div>
+<div style="margin-left: 20px;">
+<h6><font color="#00B9FF">Defense (Ice)</font></h6>
+<div style="margin-left: 20px;">
+<p>Increases Ice elemental defense of the player.</p>
+</div>
+<h6><font color="#FF5D00">Defense (Fire)</font></h6>
+<div style="margin-left: 20px;">
+<p>Increases Fire elemental defense of the player.</p>
+</div>
+<h6><font color="#C3C3C3">Defense (Lightning)</font></h6>
+<div style="margin-left: 20px;">
+<p>Increases Lightning elemental defense of the player.</p>
+</div>
+</div>
+<h4>Pants Options</h4>
+<div align="center" style="margin-bottom: 20px;"><img src="../images/articles/PantsOptions.jpg"></div>
+<div style="margin-left: 20px;">
+<h6><font color="#00B9FF">Raise Accuracy</font></h6>
+<div style="margin-left: 20px;">
+<p>Increases the Accuracy of an attack.</p>
+</div>
+<h6><font color="#FF5D00">Raise Evasion</font></h6>
+<div style="margin-left: 20px;">
+<p>Increases the chance to dodge an attack.</p>
+</div>
+<h6><font color="#C3C3C3">Raise Magic Evasion</font></h6>
+<div style="margin-left: 20px;">
+<p>Increases the chance to dodge spells.</p>
+</div>
+</div>
+<h4>Boots Options</h4>
+<div align="center" style="margin-bottom: 20px;"><img src="../images/articles/BootsOptions.jpg"></div>
+<div style="margin-left: 20px;">
+<h6><font color="#00B9FF">Raise Critical Hit Evasion</font></h6>
+<div style="margin-left: 20px;">
+<p>Increases the chance to dodge Critical Hits.</p>
+</div>
+<h6><font color="#FF5D00">Raise WZ Acquisition</font></h6>
+<div style="margin-left: 20px;">
+<p>Increases the Woonz Gained when killing monsters.</p>
+ </div>
+<h6><font color="#C3C3C3">Raise Critical Hit Rate</font></h6>
+<div style="margin-left: 20px;">
+<p>Increases the chance of a Critical Hit.</p>
+</div>
+</div>
+<h4>Gloves Options</h4>
+<div align="center" style="margin-bottom: 20px;"><img src="../images/articles/GlovesOptions.jpg"></div>
+<div style="margin-left: 20px;">
+<h6><font color="#00B9FF">Increase Skill Duration</font></h6>
+<div style="margin-left: 20px;">
+<p>Increases the duration of lasting skills. Not applicable to Warrior gloves.</p>
+</div>
+</div>
+<div style="margin-left: 20px;">
+<h6><font color="#FF5D00">Raise Basic Attack Damage</font></h6>
+<div style="margin-left: 20px;">
+<p>Increases the Attack Power of the player. Not applicable to Mage gloves.</p>
+</div>
+<h6><font color="#C3C3C3">Raise Skill Attack Damage</font></h6>
+<div style="margin-left: 20px;">
+<p>Increases the Attack of the spells of a player.</p>
+</div>
+</div></div></div>
+</div>
+
+<div class="bottombar p-0">
+<div class="d-flex flex-nowrap flex-row px-2 align-items-center h-100">
+<div class="flex-grow-1">
+<a href="../index.html" class="mx-2">Home</a>
+<a href="../cdn-cgi/l/email-protection.html#d2b3e1a1a7a2a2bda0a692b3e1bbbcb6bbb3fcb1bdbf" class="mx-2">Contact</a>
+</div>
+<div class="mx-2">&copy; A3 Guide</div>
+</div>
+<p><a href="item-options.html#top" id="top-link" class="scrollup"></a></p>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

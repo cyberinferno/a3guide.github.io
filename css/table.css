@@ -1,0 +1,71 @@
+.quest-table th {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 20px 15px;
+    color: #ffffff;
+    border: #333333 solid 1px;
+	background: rgba(0, 0, 0);
+	border-bottom: none !important;
+}
+.quest-table td {
+    border: #333333 solid 1px;
+	font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    text-align: center !important;
+    color: #cccccc;
+    text-shadow: 0 0 0 transparent, #000000 0px 1px 0px;
+}
+.bg-1 {
+	background: rgba(0, 0, 0 , 0.3);
+}
+.bg-2 {
+	background: transparent;
+}
+.quest-table select {
+	margin: 0;
+}
+.dataTables_filter {
+	float: right;
+}
+.table td {
+	vertical-align: middle;
+}
+.dataTables_info {
+	font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+}
+.page-link {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+	padding: .1rem .75rem;
+}
+.page-item.active .page-link {
+	background-color: #f75e23;
+    border-color: #f75e23;
+}
+.page-link {
+	background: rgba(0, 0, 0 , 0.3);
+	border: #333333 solid 1px;
+}
+.page-item.disabled .page-link {
+	background: rgba(0, 0, 0);
+	border: #333333 solid 1px;
+	color: #fff;
+}
+.page-link:hover {
+	background-color: #333333;
+    border-color: #333333;
+	color: #fff;
+}
+.form-inline .btn {
+	padding: .2rem .75rem;
+}
+.form-inline .form-control {
+	background-color: #333333;
+    border-color: #333333;
+	color: #fff;
+}
+.custom-select-sm {
+	font-size: 1rem;
+}

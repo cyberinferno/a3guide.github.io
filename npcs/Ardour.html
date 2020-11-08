@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta charset="UTF-8">
+<meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#D0322C">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ardour - NPC - A3 Guide</title>
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=PT+Sans">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+
+<link rel="stylesheet" type="text/css" href="../css/styles.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="../js/scroll.js"></script>
+</head>
+<body>
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.18/r-2.2.2/datatables.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.18/r-2.2.2/datatables.min.css" />
+<script type="text/javascript" src="../js/datatables.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/table.css"><script language="javascript">
+$(document).ready(function()
+{
+     TooltipBind();
+});
+function TooltipBind() {
+	$('.itempopup').each(function() {
+		 $(this).tooltip({
+				html: true,
+				animation: true,
+				trigger: 'hover',
+				title: $('#' +  $(this).attr('name')).html(),
+				placement: 'bottom',
+				boundary: 'viewport',
+				container: 'body'
+		 });
+ });
+}
+</script>
+<div id="maincontent">
+<div class="container-fluid page-wrap p-0">
+
+<div class="logo h-auto text-center text-lg-left pl-lg-5 pb-lg-5"><img src="../images/logo.png" class="img-fluid"></div>
+
+
+
+<nav class="navbar mainnav navbar-expand-lg navbar-dark">
+<span class="navbar-brand m-0 p-0 pt-2"><div class="h2text d-lg-none">Maps</div></span>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav w-100 mainnavul pb-0">
+<li class="nav-item flex-fill">
+<a class="nav-link" href="../installing/index.html">Installing</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../characters/index.html">Characters</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../beginner-guide/index.html">Beginner Guide</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../advanced-guide/index.html">Advanced Guide</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../weapons/index.html">Weapons</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../armors/index.html">Armors</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../items/index.html">Items</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../skills/index.html">Skills</a>
+</li><li class="nav-item flex-fill active">
+<a class="nav-link" href="../maps/index.html">Maps</a>
+</li><li class="nav-item flex-fill ">
+<a class="nav-link" href="../quests/index.html">Quests</a>
+</li> </ul>
+</div>
+</nav>
+
+
+<div class="pane">
+<div class="pagetitle pt-2 pb-2"><div class="d-none d-lg-block">Maps</div></div>
+<div class="container-fluid p-0 m-0">
+<div class="container-fluid p-0 m-0">
+<div class="row m-0">
+<div class="vertnavbar col-lg-3 p-0 m-0">
+<nav class="navbar vertnav mainnav navbar-expand-lg navbar-dark align-items-start">
+<span class="navbar-brand m-0 p-0 pt-2 navtext d-lg-none">NPC</span>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav1">
+<ul class="navbar-nav w-100 mainnavul pb-0 flex-column">
+<div class="h4text"><span>NPC Guide</span></div><li class="nav-item flex-fill">
+<a class="nav-link" href="../beginner-guide/non-playing-characters-npcs-merchants.html">Non Playing Characters (NPCs) - Merchants</a>
+</li></ul></div></nav></div><div class="pageinfo col-lg-9 col-md-12 p-2 m-0"><div class="d-flex flex-column-reverse flex-md-row m-0">
+<div><div class="h2text text-center text-lg-left">Ardour</div><div class="itemsdesc"><div class="card text-white mb-3"><div class="card-body p-0"><p class="card-text text-center text-lg-left"><span>Occupation:</span> Teleporter<br><span>Gender:</span> Male<br><span>Age:</span> 68</p>
+</div></div><div class="ml-2"><blockquote class="blockquote mb-0">He is hated by his terrible smell which reminded everyone of the monster who crawl in the continent of Hatrel. However he is cursed to stay in one position for the rest of his life hence he didnt bath which caused the smell. Due to the hatred shown to him he has become a mean person.
+</blockquote></div></div></div>
+<div class="text-center text-md-right w-100">
+<img class="border border-light img-fluid" src="../images/npc/Ardour.jpg" width="180px" height="180px">
+</div>
+</div>
+<div class="h4text pt-3"><span class="justify-content-center justify-content-md-start">Location</span></div><div class="row m-0"><div class="col-lg-3 col-md-3 p-3 pl-4"><a href="../maps/Hatrel.html" class="text-decoration-none">
+<div class="h4text text-center">Hatrel</div>
+<div class="text-center"><img src="../images/maps/HatrelMap.jpg" alt="" width="130" height="130"></div>
+</a></div></div><div><div class="h4text pt-3"><span class="justify-content-center justify-content-md-start mb-2">Quests Given</span></div><div class="quest-table"><table class="table quest-table dt-responsive w-100" id="questtable">
+<thead>
+<tr>
+<th>Quest ID</th>
+<th>Quest Title</th>
+<th>Level</th>
+<th>Given By</th>
+<th>Experience</th>
+<th>Woonz</th>
+<th>Lore</th>
+</tr>
+</thead>
+<tbody><tr class="questrow"><td class="bg-1">2207</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/2207/to-syvave.html">To Syvave</a></td><td class="bg-2">110-140</td><td class="bg-2">Ardour</td><td class="bg-2">69165</td><td class="bg-2">32000</td><td class="bg-2">610</td></tr><tr class="questrow"><td class="bg-1">2208</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/2208/syvaves-past.html">Syvave's past</a></td><td class="bg-2">No Condition</td><td class="bg-2">Ardour</td><td class="bg-2">69165</td><td class="bg-2">32000</td><td class="bg-2">610</td></tr><tr class="questrow"><td class="bg-1">2209</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/2209/syvaves-present.html">Syvave's present</a></td><td class="bg-2">No Condition</td><td class="bg-2">Ardour</td><td class="bg-2">69165</td><td class="bg-2">32000</td><td class="bg-2">610</td></tr><tr class="questrow"><td class="bg-1">2433</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/2433/herenes-and-arteries.html">Herenes and Arteries</a></td><td class="bg-2">124-128</td><td class="bg-2">Ardour</td><td class="bg-2">166500</td><td class="bg-2">100000</td><td class="bg-2">690</td></tr><tr class="questrow"><td class="bg-1">2457</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/2457/the-revenge-of-the-follower.html">the revenge of the follower </a></td><td class="bg-2">No Condition</td><td class="bg-2">Ardour</td><td class="bg-2">150000</td><td class="bg-2">32000</td><td class="bg-2">660</td></tr><tr class="questrow"><td class="bg-1">2466</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/2466/the-wrong-movement.html">The wrong movement </a></td><td class="bg-2">135-159</td><td class="bg-2">Ardour</td><td class="bg-2">115000</td><td class="bg-2">52000</td><td class="bg-2">780</td></tr><tr class="questrow"><td class="bg-1">2481</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/2481/ardours-information.html">Ardour's information</a></td><td class="bg-2">135-159</td><td class="bg-2">Ardour</td><td class="bg-2">90000</td><td class="bg-2">32000</td><td class="bg-2">660</td></tr><tr class="questrow"><td class="bg-1">2482</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/2482/find-rameda.html">Find Rameda </a></td><td class="bg-2">No Condition</td><td class="bg-2">Ardour</td><td class="bg-2">108000</td><td class="bg-2">38000</td><td class="bg-2">700</td></tr></tbody>
+</table></div></div></div><div style="display: none;"></div></div>
+</div>
+
+<div class="bottombar p-0">
+<div class="d-flex flex-nowrap flex-row px-2 align-items-center h-100">
+<div class="flex-grow-1">
+<a href="../index.html" class="mx-2">Home</a>
+<a href="../cdn-cgi/l/email-protection.html#dbbae8a8aeababb4a9af9bbae8b2b5bfb2baf5b8b4b6" class="mx-2">Contact</a>
+</div>
+<div class="mx-2">&copy; A3 Guide</div>
+</div>
+<p><a href="Ardour.html#top" id="top-link" class="scrollup"></a></p>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta charset="UTF-8">
+<meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#D0322C">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>In Game Movement - Beginner Guide - A3 Guide</title>
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=PT+Sans">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+
+<link rel="stylesheet" type="text/css" href="../css/styles.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="../js/scroll.js"></script>
+</head>
+<body>
+<div id="maincontent">
+<div class="container-fluid page-wrap p-0">
+
+<div class="logo h-auto text-center text-lg-left pl-lg-5 pb-lg-5"><img src="../images/logo.png" class="img-fluid"></div>
+
+
+
+<nav class="navbar mainnav navbar-expand-lg navbar-dark">
+<span class="navbar-brand m-0 p-0 pt-2"><div class="h2text d-lg-none">Beginner Guide</div></span>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav w-100 mainnavul pb-0">
+<li class="nav-item flex-fill">
+<a class="nav-link" href="../installing/index.html">Installing</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../characters/index.html">Characters</a>
+</li><li class="nav-item flex-fill active">
+<a class="nav-link" href="index.html">Beginner Guide</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../advanced-guide/index.html">Advanced Guide</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../weapons/index.html">Weapons</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../armors/index.html">Armors</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../items/index.html">Items</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../skills/index.html">Skills</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../maps/index.html">Maps</a>
+</li><li class="nav-item flex-fill ">
+<a class="nav-link" href="../quests/index.html">Quests</a>
+</li> </ul>
+</div>
+</nav>
+
+
+<div class="pane">
+<div class="pagetitle pt-2 pb-2"><div class="d-none d-lg-block">Beginner Guide</div></div>
+<div class="container-fluid p-0 m-0">
+<script language="javascript">
+$(document).ready(function()
+{
+     TooltipBind();
+});
+function TooltipBind() {
+	$('.itempopup').each(function() {
+		 $(this).tooltip({
+				html: true,
+				animation: true,
+				trigger: 'hover',
+				title: $('#' +  $(this).attr('name')).html(),
+				placement: 'bottom',
+				boundary: 'viewport',
+				container: 'body'
+		 });
+ });
+}
+</script>
+<div class="row m-0">
+<div class="vertnavbar col-lg-4 p-0 m-0">
+<nav class="navbar vertnav mainnav navbar-expand-lg navbar-dark align-items-start">
+<span class="navbar-brand m-0 p-0 pt-2 navtext d-lg-none text-wrap">In Game Movement</span>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav1">
+<ul class="navbar-nav w-100 mainnavul pb-0 flex-column">
+<li class="nav-item flex-fill">
+<a class="nav-link" href="game-interface.html">Game Interface</a>
+</li><li class="nav-item flex-fill active">
+<a class="nav-link" href="in-game-movement.html">In Game Movement</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="shues.html">Shues</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="hunting.html">Hunting</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="leveling-up.html">Leveling Up</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="non-playing-characters-npcs-merchants.html">Non Playing Characters (NPCs) - Merchants</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="giving-items-trading.html">Giving Items / Trading</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="chatting.html">Chatting</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="quests.html">Quests</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="personal-shop.html">Personal Shop</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="settings-macro.html">Settings / Macros</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="game-shortcuts.html">Game Shortcuts</a>
+</li> </ul>
+</div>
+</nav>
+</div>
+<div class="pageinfo col-lg-8 col-md-12 p-2 m-0"><div class="h2text d-none d-lg-block mb-2">In Game Movement</div><div style="margin: 0px 10px 10px 10px;"> <h4>Walking around</h4>
+<p>
+To move the character around, move the mouse pointer (Looks like a metal glove) and left-click on the ground. The character will begin to move towards that point. Clicking various points on the ground will move the character accordingly.
+(If you see a red circle with a cross mark on the pointer, it means that you cannot click there.)</p>
+<div class="hover" align="center"><span><img src="../images/articles/movement1.jpg" class="img-fluid" alt="" /></span></div>
+<br>
+<h4>Run / Walk</h4>
+<p>
+To change to walk mode click the icon higlighted below on the menu bar or press - R. Please keep in mind that the chracter needs to come to a stop to toggle between Run/Walk modes.</p>
+<div align="center"><span><img src="../images/articles/moverun.jpg" class="img-fluid" alt="" /></span></div>
+<br>
+<h4>Moving from one map to another</h4>
+<p>
+The minimap on the top right corner of the screen shows entry and exit points on a map. These points are marked with a green circle called warp points. This helps a player move from one map to the next. When you reach this point, the glove would change to a red arrow, clicking which would help you go through.
+</p>
+<div align="center"><span><img src="../images/articles/warppoint.jpg" class="img-fluid" alt="" /></span></div>
+<br>
+<h4>Teleporting / Warping from a town to another map</h4>
+<p>
+Each town has a Teleporter or Warp NPC. By paying a fee, players can directly warp to the map of their choice. The fee is calculated depending on the characters level</p>
+<p>
+Fee = (Level * 50) + 200 Wz</p>
+<p> Click on the NPC and select "NPC Window".</p>
+<div align="center"><span><img src="../images/articles/npc_teleporter1.jpg" class="img-fluid" alt="" /></span></div>
+<p>
+A list of available maps will appear. On selecting a destination, a confirmation window will appear which also states the Woonz chargeable for the teleport service.</p>
+<div align="center"><span><img src="../images/articles/npc_teleporter2.jpg" class="img-fluid" alt="" /></span></div>
+<br>
+<h4>Town Portal Scrolls (Return to town scrolls)</h4>
+<p>
+This is a special item that helps a payer escape or get back to his or her hometown at the press of a button. The town portal scrolls can be bought at the Armory NPC in either of the towns.</p>
+<div align="center"><span><div><a href="../item/Town-Portal-Scroll.html"><img class="itempopup" style="display: block; margin-left: auto; margin-right: auto; padding: 5px;" name="item1" src="data:image/jpeg;base64,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"></a></div></span></div>
+<p>The scroll can be used by pressing F8 or clicking the Town Portal Scroll button on the menu bar.</p>
+<div class="hover" align="center"><span><img src="../images/articles/movement3.jpg" class="img-fluid" alt="" /></span></div>
+<div style="display: none;"><div id="item1"><div style="padding: 5px; display: flex;"><div style="float: left;"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQICAQECAQEBAgICAgICAgICAQICAgICAgICAgL/2wBDAQEBAQEBAQEBAQECAQEBAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgL/wAARCABAACADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD8Kf2zP2/fH37JXiX4D/CD4E/An9jfw14Z0z9jL9iXxJrep6/+yb8EvH3jPx74z+K/7JHwV+PPjLx1488b+N/CV/qviDxVc+Kvi7rVqWa7jsIrDRbBbXT7a7Oo3eofIEX/AAWU/awnljgg+GH7Fk000iRQwxfsPfs2ySyyyMEjjjjT4fEySM5ACgEkkADNcj/wVc/5L18JP+zHv+CbX/rtn9j6vhr4O634f8KeKh4u8QaRc6//AGBbPNomk291Z2cU3iC6zBZXV9cXEEsttb2tt9uuIZ7aMzwX9vZSo6bcnk4X4IyzifMcry2OV0a2LzCVpTnGLlyxTnUm5Tu24UoSkk7t8vKk20juqZni8O5JYudKjTeybSSv0S8+yP63PgL+zJ/wVW+Iuj+DviAf+CbP7AGr+GNZ1nwrqGr/AAr1H9n/AP4Jt/A/44ah4E1TUdPhF7Hovxc8HvcfDefVRqdlY6Tc6zod1cfate069TQdSsbi3F18seFvij4s+J/ib9sX9nX9oX9hn9mP4QSaD+yF/wAFCPFumw3f7J37PfgL42/Czx1+zx+z5J8bPAa6N4o8I/CLQNT0TxTbNbaHFe6sttDYaxpvi1rjS7CxuIra7g/RX9jD/gtv8Mvgd+zVH4R+L37E2oweEvFnhqa21H41/DS38UeNVt9A1LWviL8Pm1/4haN4p0LR9Klk03xjB4Wtp4tC16zjv4/HhmV/7fS6s5fguy+I+pfHT9of9pL4lN4g0nxTp/h//gnD/wAFG/BFvqul6hFqbw+E77/gnv4hvvhCLnUTI76lHJ4E0Sa2tVM072Np4YgtHi02x/smyX+hfGHwj/4h1wB4hYfO/DPCZVjKCoRyfNaeMrwrQlQzDCzrVVRo5tjMFWdSnV9lyVaNKtRjOlJ3qNJedl+bYvH5hhJf2jKrRldzpShFp80HFJP2cZxStzNtyUmtLan5Hf8ABVz/AJL18JP+zHv+CbX/AK7Z/Y+r3P8A4I/f8E89B/bO+J/hJ/iRo/iPVfh7/wALR8E6V4g0fTV1rRLbVPA174h0rQ/Ft/L4i0exa5QbdSuY7CWC5tIbe80C98+aULLCvkf/AAU80LVPFH7THwJ8M6JBFda14i/Y1/4JkaFpFtNeWWnw3Gqav/wTl/Y30+wglv8AUriG3sYnu7iJWmuJYoIgxeWRI1Zh/Yl/wbk/s4w+CPDmpKdT12z0vW7qy1HR9QggudCg8Y+H/Ag8U2Ntd2Edx4ouNTttNuPGGta/rN7bSpHYRXPiG3TTWUC4VfiPCr2+T4POeNuRqjw3g5xpy5pwvicVejFRcU+d06MqtRx2UvZuTSavGYRjUcqLf8SaXfrp1XVL7mfN/wDwcCfsCfs/fs//ALKPgfw1+zN4w+KnhSw8D+IPDfijUvgH41+I2v8Axf8AAzaR4X8M+LdIg8ReDdZ+Ikt5qnwo8RDTtd8a6leaZpOpWvh/XYLOUXOlrf6b4YjHw5+xV8APD3w9/wCCZPxM+LVhpUcevan8Av25dI1y/u5tSs9VvW+JP/BNT9sHxVazpp4BtLqwax8FWKpcMiXC21nYpE88cs0g+kP+C/8A8br/AOLn7Svg74HeGrHUre/t59E+HkMtzb2gtfteq6lc23n/ALm9k+0WUf8AaHi93uJYo5Y4r2EL5SpK4+vfiJ4JTwd/wTD+MjLpV/pkes+Df2u7zTzqVr9hvbvR4f8AglV+3fFbXFzaI3lrcHUW1gyyKimWaSRiWUIa/WPFjO88r+AU8PxPmlfNc3r/AFKXtsS1Urynjsfg8VWjPEP95XnGlRo3nOVSfJJR5+RPm8zLaaWdYWtTs1NTu0lBWhCUI2gtIr33skrq9m9T+ZT9r290zwX+1h8J/i14lv5dM8LeDP2G/wDgnL4bup7awg1e6u9d+I3/AASs/Zw0PS9MTTE1e3uo4m0az8U3ZvYori3gl0aG3uRG17b7/wCpv/glT/wUl/4J+eFPgj4t+E2seN/iT8Afi1L4G1jxLoHjv4s+DJ/C3w68W3s1lqVi82kfEPQPiFrOneGLOPx1p8tl5/iD+wtMur19PsrWe51Kf+zbb+fv4m/sKX37dP7bfwo+GSfE3Rvhdo+n/sOf8E273WvEup6PNrd35U//AATu/ZItLWx0fShqNpFeancSwPFCs15ADcXEESiQyHb9h/8ABY7/AIJwftTfsLfsaeAvAHhD48/Dr4lfsweBR4ev/i7onw90zxj8B/HviHV9a8Wt4f8ADnjv4u/A/SviHq3hX4k+ELDxCPAdlaeKryS48Tx+IfFrRCKOwEk6fQeCvDnh7n3htk/CPE/FdXIM74sxccRg6VKNe9SpRxOIoV6rn9XxOEk/ZUcJSjha0qLrXap8tRusGdPFxxdeNLD+2pwSvK8Va6jJK3Mnrrr087pHl3hODV/2kf8Agot4w8Z6tOviHw/8DtXvLfTND0q4tp9O1PUvEuqa18PfB+mahc3WqLZWtonhHSLu7ZXtJzdQ6lqEqBJbyKVf6Av25fC//CM/8E9fH9hd6kYp9R+EX7Zd5pOj30kEepmy0f8A4Je/t6S6vcR2T7JjBFd63pgldUMMf9q2pJEkxD/g7/wQq+C2oeI/D03iTUINSuL3x/eaNdap4iSdp77RvDvgl49O0Hw5LqL3aLFZHwwguNM2yvc2pjuLeGzWKF2T7i/4KXftR6P4n/be+KH7IvgnUbfVvDv7On/BJT/gp74j+IF3b3Wmz+f8YviH+xr8Wr690+eO1s2exudP8EWvhgMDcl2/tsWlzCX02CaT87+kdj1R4Wo5SpxVWlBY6quWzlCVWhOhHRy5JKjTjG9k3yNtXm5O8mcKmaOt/wAu5WpxfSPJBKXRc15NPyvvofmF8Vv+Ch3xF/YT/aM8FeK/hJ8Lv2c/EXjfUv2Mf+Cc03/CWfHHw54g8bXMFhdf8E1v2VNOj0bSvDl38QLHQY4oY9Q1Zkum0eW/U65ciXUVg+zwxerftbf8FX2/4KXfse+IvEfjufwL8Gf2nfhDokfhb4ofDDS9c13w74E/aC+E3jTxLpWj+HvFvwKi1i81C5ufGHhvx14jguPE3gPWL+/uptHsrHxjoOrXVvoniSz0St8Ff2nz8DvjB4W/a3/Z71H/AIJu/G/WfiF/wT8/ZY+B2jn9pD4y+GPAHxR/Zo+Kvwo/Y2+Gn7LvxJtV8I/Fy40GSx1NvFvw/wDFUV+bC21PTfFHhDV7WCw8QW1lrF8j/A3w7/Zv+Hh+LsnxU+L/AIi/ZIu9Ht/G+oeMNI+D3wk/bu/Zx8I+BtNiudU/tnT/AA5b694k+JuqazD4Vs5zHa29qLhtQWzsIvN1meeSSRfteC+L/AzA8A5Xis5zOHD3FfD9GPsa8I47EYmtOtjMTHG4WphlT5IU5YepGMZVXZSqzlS9k6fNV5q2E4slnlZ4bBvGZZVd1Lmowj/CVmnfm92fXXms7qx/Wr+wP8Ovhp+yf+x14C+JGt65r9x4N+DXw5m+M/iO98TafbWU8ek6P4VvNf8AEfnWu2OOfQV07RPNikKg3lvCs8c0MVyAv8cX7IHxy8a/tK/tp/8ABQr47fEPUYNU8YfE/wD4J+/8FVPFWrXVm5fT41vf2O/jAmm6bpRNnbn+x7PSYLGzsw0ETC1sYQ0aMCB+lf7a/wC2j+0V+1T+zHN+y98OvEn7Dv7N/hHWdR8N2vjDUvC3/BSz9nrxTd+Kvhz4c0XWdMT4X3Uc2p6ZJa+Grq8vdGuL1luXkuo/DyWM4ks7q7im/ND9kz4OaF+yAf2p/i58Yf2i/wBlWbSNW/YU/bD+DHhTwv8ADP8AaE+HPxh8f+NfiP8AtB/BTxL8EfAXh7w14Q+F2s6tctt8S+PbC+1G7vfsVhY6Ro+o3st1ut0gl/lzxT42yrjCebSyzH/XqmNVRUqceZybnKSpUow5YuUoqTTlyK8pS1aXM/fyrJcfg405YjDumoNN35UoqKSu3zW1Vt3+Nz//2Q=="></div><div style="float: left; flex: 1; padding: 2px 2px 2px 10px;"><h3>Town Portal Scroll</h3><p><span>Teleports you back to the Town<br>Buy Price: 1,000</span></p></div></div></div></div>
+</div></div>
+</div>
+
+<div class="bottombar p-0">
+<div class="d-flex flex-nowrap flex-row px-2 align-items-center h-100">
+<div class="flex-grow-1">
+<a href="../index.html" class="mx-2">Home</a>
+<a href="../cdn-cgi/l/email-protection.html#a6c795d5d3d6d6c9d4d2e6c795cfc8c2cfc788c5c9cb" class="mx-2">Contact</a>
+</div>
+<div class="mx-2">&copy; A3 Guide</div>
+</div>
+<p><a href="in-game-movement.html#top" id="top-link" class="scrollup"></a></p>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta charset="UTF-8">
+<meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#D0322C">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seniere - NPC - A3 Guide</title>
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=PT+Sans">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+
+<link rel="stylesheet" type="text/css" href="../css/styles.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="../js/scroll.js"></script>
+</head>
+<body>
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.18/r-2.2.2/datatables.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.18/r-2.2.2/datatables.min.css" />
+<script type="text/javascript" src="../js/datatables.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/table.css"><script language="javascript">
+$(document).ready(function()
+{
+     TooltipBind();
+});
+function TooltipBind() {
+	$('.itempopup').each(function() {
+		 $(this).tooltip({
+				html: true,
+				animation: true,
+				trigger: 'hover',
+				title: $('#' +  $(this).attr('name')).html(),
+				placement: 'bottom',
+				boundary: 'viewport',
+				container: 'body'
+		 });
+ });
+}
+</script>
+<div id="maincontent">
+<div class="container-fluid page-wrap p-0">
+
+<div class="logo h-auto text-center text-lg-left pl-lg-5 pb-lg-5"><img src="../images/logo.png" class="img-fluid"></div>
+
+
+
+<nav class="navbar mainnav navbar-expand-lg navbar-dark">
+<span class="navbar-brand m-0 p-0 pt-2"><div class="h2text d-lg-none">Maps</div></span>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav w-100 mainnavul pb-0">
+<li class="nav-item flex-fill">
+<a class="nav-link" href="../installing/index.html">Installing</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../characters/index.html">Characters</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../beginner-guide/index.html">Beginner Guide</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../advanced-guide/index.html">Advanced Guide</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../weapons/index.html">Weapons</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../armors/index.html">Armors</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../items/index.html">Items</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../skills/index.html">Skills</a>
+</li><li class="nav-item flex-fill active">
+<a class="nav-link" href="../maps/index.html">Maps</a>
+</li><li class="nav-item flex-fill ">
+<a class="nav-link" href="../quests/index.html">Quests</a>
+</li> </ul>
+</div>
+</nav>
+
+
+<div class="pane">
+<div class="pagetitle pt-2 pb-2"><div class="d-none d-lg-block">Maps</div></div>
+<div class="container-fluid p-0 m-0">
+<div class="container-fluid p-0 m-0">
+<div class="row m-0">
+<div class="vertnavbar col-lg-3 p-0 m-0">
+<nav class="navbar vertnav mainnav navbar-expand-lg navbar-dark align-items-start">
+<span class="navbar-brand m-0 p-0 pt-2 navtext d-lg-none">NPC</span>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav1">
+<ul class="navbar-nav w-100 mainnavul pb-0 flex-column">
+<div class="h4text"><span>NPC Guide</span></div><li class="nav-item flex-fill">
+<a class="nav-link" href="../beginner-guide/non-playing-characters-npcs-merchants.html">Non Playing Characters (NPCs) - Merchants</a>
+</li></ul></div></nav></div><div class="pageinfo col-lg-9 col-md-12 p-2 m-0"><div class="d-flex flex-column-reverse flex-md-row m-0">
+<div><div class="h2text text-center text-lg-left">Seniere</div><div class="itemsdesc"><div class="card text-white mb-3"><div class="card-body p-0"><p class="card-text text-center text-lg-left"><span>Occupation:</span> Arena Manager<br><span>Gender:</span> Male<br><span>Age:</span> 34</p>
+</div></div><div class="ml-2"><blockquote class="blockquote mb-0">Due to his heavy debts to Mattera, He conducts tournaments in order to get money for her. He is ignorant and only anticipates for the beginning of the Tournament.
+</blockquote></div></div></div>
+<div class="text-center text-md-right w-100">
+<img class="border border-light img-fluid" src="../images/npc/Seniere.jpg" width="180px" height="180px">
+</div>
+</div>
+<div class="h4text pt-3"><span class="justify-content-center justify-content-md-start">Location</span></div><div class="row m-0"><div class="col-lg-3 col-md-3 p-3 pl-4"><a href="../maps/Temoz.html" class="text-decoration-none">
+<div class="h4text text-center">Temoz</div>
+<div class="text-center"><img src="../images/maps/TemozMap.jpg" alt="" width="130" height="130"></div>
+</a></div></div><div><div class="h4text pt-3"><span class="justify-content-center justify-content-md-start mb-2">Quests Given</span></div><div class="quest-table"><table class="table quest-table dt-responsive w-100" id="questtable">
+<thead>
+<tr>
+<th>Quest ID</th>
+<th>Quest Title</th>
+<th>Level</th>
+<th>Given By</th>
+<th>Experience</th>
+<th>Woonz</th>
+<th>Lore</th>
+</tr>
+</thead>
+<tbody><tr class="questrow"><td class="bg-1">12</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/12/first-hunting.html">First hunting</a></td><td class="bg-2">No Condition</td><td class="bg-2">Seniere</td><td class="bg-2">150</td><td class="bg-2">15000</td><td class="bg-2">120</td></tr><tr class="questrow"><td class="bg-1">28</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/28/beginning-of-a-long-journey.html">Beginning of a long journey</a></td><td class="bg-2">80-165</td><td class="bg-2">Seniere</td><td class="bg-2">4000</td><td class="bg-2">5000</td><td class="bg-2">108</td></tr><tr class="questrow"><td class="bg-1">29</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/29/i-should-have-never-started.html">I should have never started.</a></td><td class="bg-2">No Condition</td><td class="bg-2">Seniere</td><td class="bg-2">7000</td><td class="bg-2">9200</td><td class="bg-2">120</td></tr><tr class="questrow"><td class="bg-1">30</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/30/desperate-cry-for-help.html">Desperate cry for help.</a></td><td class="bg-2">No Condition</td><td class="bg-2">Seniere</td><td class="bg-2">10000</td><td class="bg-2">10000</td><td class="bg-2">240</td></tr><tr class="questrow"><td class="bg-1">31</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/31/alas-he-is-dead.html">Alas, he is dead.</a></td><td class="bg-2">No Condition</td><td class="bg-2">Seniere</td><td class="bg-2">30000</td><td class="bg-2">20000</td><td class="bg-2">282</td></tr><tr class="questrow"><td class="bg-1">32</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/32/when-it-rains-it-pours.html">When it rains, it pours.</a></td><td class="bg-2">No Condition</td><td class="bg-2">Seniere</td><td class="bg-2">26600</td><td class="bg-2">12000</td><td class="bg-2">300</td></tr><tr class="questrow"><td class="bg-1">66</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/66/a-knights-request.html">A knight's request</a></td><td class="bg-2">No Condition</td><td class="bg-2">Seniere</td><td class="bg-2">60000</td><td class="bg-2">30000</td><td class="bg-2">600</td></tr><tr class="questrow"><td class="bg-1">67</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/67/thols-request.html">Thol's request</a></td><td class="bg-2">No Condition</td><td class="bg-2">Seniere</td><td class="bg-2">350000</td><td class="bg-2">500000</td><td class="bg-2">900</td></tr><tr class="questrow"><td class="bg-1">68</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/68/lets-not-live-like-this-anymore.html">Let's not live like this anymore.</a></td><td class="bg-2">No Condition</td><td class="bg-2">Seniere</td><td class="bg-2">300000</td><td class="bg-2">500000</td><td class="bg-2">900</td></tr><tr class="questrow"><td class="bg-1">215</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/215/wonderful-food-ingredients.html">Wonderful food ingredients</a></td><td class="bg-2">35-45</td><td class="bg-2">Seniere</td><td class="bg-2">18400</td><td class="bg-2">8000</td><td class="bg-2">240</td></tr><tr class="questrow"><td class="bg-1">216</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/216/some-other-food-ingredients-are-needed.html">Some other food ingredients are needed.</a></td><td class="bg-2">No Condition</td><td class="bg-2">Seniere</td><td class="bg-2">16850</td><td class="bg-2">8000</td><td class="bg-2">250</td></tr><tr class="questrow"><td class="bg-1">309</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/309/the-provocation-of-the-senieres.html">The provocation of the senieres</a></td><td class="bg-2">50-70</td><td class="bg-2">Seniere</td><td class="bg-2">45000</td><td class="bg-2">20000</td><td class="bg-2">390</td></tr><tr class="questrow"><td class="bg-1">320</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/320/seniere-son-of-materra.html">Seniere, son of Materra</a></td><td class="bg-2">50-70</td><td class="bg-2">Seniere</td><td class="bg-2">20000</td><td class="bg-2">12000</td><td class="bg-2">390</td></tr><tr class="questrow"><td class="bg-1">343</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/343/skull-of-a-sonos-to-seniere.html">Skull of a Sonos to Seniere...</a></td><td class="bg-2">70-100</td><td class="bg-2">Seniere</td><td class="bg-2">60000</td><td class="bg-2">40000</td><td class="bg-2">480</td></tr><tr class="questrow"><td class="bg-1">344</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/344/the-distrustful-seniere.html">The distrustful Seniere</a></td><td class="bg-2">No Condition</td><td class="bg-2">Seniere</td><td class="bg-2">69075</td><td class="bg-2">40000</td><td class="bg-2">480</td></tr><tr class="questrow"><td class="bg-1">345</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/345/why-am-i.html">Why am I¡¦?</a></td><td class="bg-2">No Condition</td><td class="bg-2">Seniere</td><td class="bg-2">100000</td><td class="bg-2">100000</td><td class="bg-2">660</td></tr><tr class="questrow"><td class="bg-1">382</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/382/youve-heard-a-rumour-about-me.html">You've heard a rumour about me?</a></td><td class="bg-2">70-100</td><td class="bg-2">Seniere</td><td class="bg-2">134770</td><td class="bg-2">60000</td><td class="bg-2">600</td></tr><tr class="questrow"><td class="bg-1">392</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/392/so-you-want-to-create-a-knights-order.html">So you want to create a knight's order?</a></td><td class="bg-2">80-165</td><td class="bg-2">Seniere</td><td class="bg-2">37500</td><td class="bg-2">1000</td><td class="bg-2">600</td></tr><tr class="questrow"><td class="bg-1">400</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/400/foman-of-the-sword-rontu-of-the-axe-wimos-of-the-bow.html">Foman of the sword, Rontu of the axe, Wimos of the bow</a></td><td class="bg-2">90-120</td><td class="bg-2">Seniere</td><td class="bg-2">120000</td><td class="bg-2">90000</td><td class="bg-2">750</td></tr><tr class="questrow"><td class="bg-1">404</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/404/acknowledgement.html">Acknowledgement</a></td><td class="bg-2">No Condition</td><td class="bg-2">Seniere</td><td class="bg-2">80000</td><td class="bg-2">60000</td><td class="bg-2">600</td></tr><tr class="questrow"><td class="bg-1">439</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/439/i-admit-it-im-a-little-scared.html">I admit it, I'm a little scared</a></td><td class="bg-2">110-140</td><td class="bg-2">Seniere</td><td class="bg-2">102364</td><td class="bg-2">30000</td><td class="bg-2">510</td></tr><tr class="questrow"><td class="bg-1">447</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/447/so-you-want-to-create-a-knights-order.html">So you want to create a knight's order?</a></td><td class="bg-2">80-165</td><td class="bg-2">Seniere</td><td class="bg-2">37500</td><td class="bg-2">1000</td><td class="bg-2">600</td></tr><tr class="questrow"><td class="bg-1">506</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/506/the-betting.html">The betting</a></td><td class="bg-2">20-32</td><td class="bg-2">Seniere</td><td class="bg-2">17490</td><td class="bg-2">12000</td><td class="bg-2">250</td></tr><tr class="questrow"><td class="bg-1">507</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/507/the-second-betting.html">The second betting</a></td><td class="bg-2">No Condition</td><td class="bg-2">Seniere</td><td class="bg-2">29383</td><td class="bg-2">20000</td><td class="bg-2">240</td></tr><tr class="questrow"><td class="bg-1">508</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/508/the-clean-up.html">The clean up</a></td><td class="bg-2">No Condition</td><td class="bg-2">Seniere</td><td class="bg-2">65195</td><td class="bg-2">40000</td><td class="bg-2">300</td></tr><tr class="questrow"><td class="bg-1">630</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/630/the-arena-needs-supplies.html">The Arena needs supplies</a></td><td class="bg-2">80-120</td><td class="bg-2">Seniere</td><td class="bg-2">112500</td><td class="bg-2">90000</td><td class="bg-2">600</td></tr><tr class="questrow"><td class="bg-1">737</td><td class="bg-1"><a style="text-decoration:none;" href="../quest/737/worshipers-of-khainen.html">Worshipers of Khainen</a></td><td class="bg-2">120-155</td><td class="bg-2">Seniere</td><td class="bg-2">260000</td><td class="bg-2">160000</td><td class="bg-2">780</td></tr></tbody>
+</table></div></div></div><div style="display: none;"></div></div>
+</div>
+
+<div class="bottombar p-0">
+<div class="d-flex flex-nowrap flex-row px-2 align-items-center h-100">
+<div class="flex-grow-1">
+<a href="../index.html" class="mx-2">Home</a>
+<a href="../cdn-cgi/l/email-protection.html#afce9cdcdadfdfc0dddbefce9cc6c1cbc6ce81ccc0c2" class="mx-2">Contact</a>
+</div>
+<div class="mx-2">&copy; A3 Guide</div>
+</div>
+<p><a href="Seniere.html#top" id="top-link" class="scrollup"></a></p>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

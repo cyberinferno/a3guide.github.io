@@ -1,0 +1,1498 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta charset="UTF-8">
+<meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#D0322C">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Passive Skills - Advanced Guide - A3 Guide</title>
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=PT+Sans">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+
+<link rel="stylesheet" type="text/css" href="../css/styles.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="../js/scroll.js"></script>
+</head>
+<body>
+<div id="maincontent">
+<div class="container-fluid page-wrap p-0">
+
+<div class="logo h-auto text-center text-lg-left pl-lg-5 pb-lg-5"><img src="../images/logo.png" class="img-fluid"></div>
+
+
+
+<nav class="navbar mainnav navbar-expand-lg navbar-dark">
+<span class="navbar-brand m-0 p-0 pt-2"><div class="h2text d-lg-none">Advanced Guide</div></span>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav w-100 mainnavul pb-0">
+<li class="nav-item flex-fill">
+<a class="nav-link" href="../installing/index.html">Installing</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../characters/index.html">Characters</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../beginner-guide/index.html">Beginner Guide</a>
+</li><li class="nav-item flex-fill active">
+<a class="nav-link" href="index.html">Advanced Guide</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../weapons/index.html">Weapons</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../armors/index.html">Armors</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../items/index.html">Items</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../skills/index.html">Skills</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../maps/index.html">Maps</a>
+</li><li class="nav-item flex-fill ">
+<a class="nav-link" href="../quests/index.html">Quests</a>
+</li> </ul>
+</div>
+</nav>
+
+
+<div class="pane">
+<div class="pagetitle pt-2 pb-2"><div class="d-none d-lg-block">Advanced Guide</div></div>
+<div class="container-fluid p-0 m-0">
+<script language="javascript">
+$(document).ready(function()
+{
+     TooltipBind();
+});
+function TooltipBind() {
+	$('.itempopup').each(function() {
+		 $(this).tooltip({
+				html: true,
+				animation: true,
+				trigger: 'hover',
+				title: $('#' +  $(this).attr('name')).html(),
+				placement: 'bottom',
+				boundary: 'viewport',
+				container: 'body'
+		 });
+ });
+}
+</script>
+<div class="row m-0">
+<div class="vertnavbar col-lg-4 p-0 m-0">
+<nav class="navbar vertnav mainnav navbar-expand-lg navbar-dark align-items-start">
+<span class="navbar-brand m-0 p-0 pt-2 navtext d-lg-none text-wrap">Passive Skills</span>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav1">
+<ul class="navbar-nav w-100 mainnavul pb-0 flex-column">
+<li class="nav-item flex-fill">
+<a class="nav-link" href="player-killing.html">Player Killing</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="mercenaries.html">Mercenaries</a>
+</li><li class="nav-item flex-fill active">
+<a class="nav-link" href="passive-skills.html">Passive Skills</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="item-combination.html">Item Combination</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="item-options.html">Item Options</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="item-gem-slotting.html">Item Gem Slotting</a>
+</li> </ul>
+</div>
+</nav>
+</div>
+<div class="pageinfo col-lg-8 col-md-12 p-2 m-0"><div class="h2text d-none d-lg-block mb-2">Passive Skills</div><div style="margin: 0px 10px 10px 10px;"><h4>What are Passives?</h4>
+<p>Passives are skills which can be used to enhance a character's combat skills such as Hit Points and Evasion. Passives are learned with the use of Passive Skill Point(PSP) which are earned every level after Level 101.</p>
+<div class="list4" style="margin-left: 10px;">
+<ul>
+<li>Passives dont have to activated.</li>
+<li>You can only learn Passive Skills once you are above Level 101.</li>
+<li>1 PSP is earned when a character above Level 101 levels up.</li>
+<li>Passives Skills are not castable and hence provide status effects retroactively.</li>
+<li>Passives always have a Positive and a Negative Effect. For Example : When Robust is skilled, your HP increases while your MP decreases.</li>
+<li>All passives are permanent, unless they are resetted.</li>
+<li>Passives can be stacked with other skills granting status effects.</li>
+</ul>
+</div>
+<br>
+<h4>How to Skill Passives?</h4>
+<p>To Skill Passive Skills, you will have to go to Hatrel and find the NPC <span>Rameda</span> interacting with him will open a menu with all the passive skills listed, along with their Positive and Negative Effects.<br></p>
+<div align="center"><span><img src="../images/articles/Rameda_Menu.jpg" class="img-fluid" alt="" /></span></div>
+<p>Clicking on a skill will prompt a menu confirming whether you want to skill the passive.</p>
+<br>
+<div align="center"><span><img src="../images/articles/Rameda_Confirm.jpg" class="img-fluid" alt="" /></span></div>
+<br>
+<h4>Bonus Passive Skill Points</h4>
+<p>After the player reaches 160 the next 5 levels will grant bonus Passive Skill Points.</p>
+<div class="table-responsive">
+<table class="table itemtable">
+<tbody>
+<tr>
+<th>Level</th>
+<th>Bonus PSP Given</th>
+</tr>
+<tr>
+<td>161</td>
+<td>10</td>
+</tr>
+<tr>
+<td>162</td>
+<td>11</td>
+</tr>
+<tr>
+<td>163</td>
+<td>12</td>
+</tr>
+<tr>
+<td>164</td>
+<td>13</td>
+</tr>
+<tr>
+<td>165</td>
+<td>14</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br>
+<h4>How to unskill Passives?</h4>
+<p>When interacting with <span>Rameda</span>, a button labelled <span>Reset</span> can be noticed at the Bottom Right corner of his menu. Clicking that button will prompt a message comfirming the reset of Passive Skills. Resetting will unlearn all the learnt passives and resetting costs 100,000 Lore. </p>
+<br>
+<div align="center"><span><img src="../images/articles/Rameda_Reset.jpg" class="img-fluid" alt="" /></span></div>
+<br>
+<div class="h4text"><span class="justify-content-center justify-content-lg-start">Common Passives</span></div>
+<p class="text-center text-lg-left">There are common Passive Skills which are available to all the Characters. These Skills are:</p>
+<br>
+<div class="d-flex flex-lg-row flex-column">
+<div class="text-center"><img src="../images/skills/Precision.jpg"></div>
+<div class="pl-lg-3">
+<div class="h4text mt-2 text-center text-lg-left">Precision</div>
+<div class="blockquote text-center text-lg-left">It is well known that, a person who seeks to increase their accuracy must sacrifice their agility.</div>
+<div class="table-responsive">
+<table class="table itemtable">
+<tbody>
+<tr>
+<th>Skill Level</th>
+<th>Required PSP</th>
+<th>Required Woonz</th>
+<th>Positive Effect</th>
+<th>Negative Effect</th>
+</tr>
+<tr>
+<td>1</td>
+<td>1 PSP</td>
+<td>5 Million</td>
+<td>1% Increase in Accuracy</td>
+<td>-</td>
+</tr>
+<tr>
+<td>2</td>
+<td>2 PSP</td>
+<td>5 Million</td>
+<td>1% Increase in Accuracy</td>
+<td>-</td>
+</tr>
+<tr>
+<td>3</td>
+<td>4 PSP</td>
+<td>10 Million</td>
+<td>2% Increase in Accuracy</td>
+<td>1% Decrease in Evasion and Magic Evasion</td>
+</tr>
+<tr>
+<td>4</td>
+<td>4 PSP</td>
+<td>20 Million</td>
+<td>2% Increase in Accuracy</td>
+<td>-</td>
+</tr>
+<tr>
+<td>5</td>
+<td>5 PSP</td>
+<td>30 Million</td>
+<td>3% Increase in Accuracy</td>
+<td>1% Decrease in Evasion and Magic Evasion</td>
+</tr>
+<tr>
+<td>6</td>
+<td>10 PSP</td>
+<td>130 Million</td>
+<td>5% Increase in Accuracy</td>
+<td>1% Decrease in Evasion and Magic Evasion</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<br>
+<div class="d-flex flex-lg-row flex-column">
+<div class="text-center"><img src="../images/skills/Evasion.jpg"></div>
+<div class="pl-lg-3">
+<div class="h4text mt-2 text-center text-lg-left">Evasion</div>
+<div class="blockquote text-center text-lg-left">It is well known that, a person who seeks to increase their agility must sacrifice their accuracy.</div>
+<div class="table-responsive">
+<table class="table itemtable">
+<tbody>
+<tr>
+<th>Skill Level</th>
+<th>Required PSP</th>
+<th>Required Woonz</th>
+<th>Positive Effect</th>
+<th>Negative Effect</th>
+</tr>
+<tr>
+<td>1</td>
+<td>2 PSP</td>
+<td>6 Million</td>
+<td>1% Increase in Evasion</td>
+<td>-</td>
+</tr>
+<tr>
+<td>2</td>
+<td>2 PSP</td>
+<td>6 Million</td>
+<td>1% Increase in Evasion</td>
+<td>-</td>
+</tr>
+<tr>
+<td>3</td>
+<td>4 PSP</td>
+ <td>12 Million</td>
+<td>2% Increase in Evasion</td>
+<td>1% Decrease in Accuracy and Magic Evasion</td>
+</tr>
+<tr>
+<td>4</td>
+<td>6 PSP</td>
+<td>24 Million</td>
+<td>2% Increase in Evasion and Magic Evasion</td>
+<td>-</td>
+</tr>
+<tr>
+<td>5</td>
+<td>8 PSP</td>
+<td>36 Million</td>
+<td>3% Increase in Evasion</td>
+<td>1% Decrease in Accuracy and Magic Evasion</td>
+</tr>
+<tr>
+<td>6</td>
+<td>12 PSP</td>
+<td>150 Million</td>
+<td>5% Increase in Evasion</td>
+<td>1% Decrease in Accuracy and Magic Evasion</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<br>
+<div class="d-flex flex-lg-row flex-column">
+<div class="text-center"><img src="../images/skills/AntiMagic.jpg"></div>
+<div class="pl-lg-3">
+<div class="h4text mt-2 text-center text-lg-left">Anti-Magic</div>
+<div class="blockquote text-center text-lg-left">It is generally agreed that, when a person tries to avoid magic, he is vunerable to physical attacks. Avoiding Magic is not a simple task and puts a heavy burden on a person body, reducing both their Accuracy and Evasion</div>
+<div class="table-responsive">
+<table class="table itemtable">
+<tbody>
+<tr>
+<th>Skill Level</th>
+<th>Required PSP</th>
+<th>Required Woonz</th>
+<th>Positive Effect</th>
+<th>Negative Effect</th>
+</tr>
+<tr>
+<td>1</td>
+<td>1 PSP</td>
+<td>5 Million</td>
+<td>1% Increase in Magic Evasion</td>
+<td>-</td>
+</tr>
+<tr>
+<td>2</td>
+<td>2 PSP</td>
+<td>5 Million</td>
+<td>1% Increase in Magic Evasion</td>
+<td>-</td>
+</tr>
+<tr>
+<td>3</td>
+<td>4 PSP</td>
+<td>10 Million</td>
+<td>2% Increase in Magic Evasion</td>
+<td>1% Decrease in Evasion and Accuracy</td>
+</tr>
+<tr>
+<td>4</td>
+<td>4 PSP</td>
+<td>20 Million</td>
+<td>2% Increase in Magic Evasion</td>
+<td>-</td>
+</tr>
+<tr>
+<td>5</td>
+<td>5 PSP</td>
+<td>30 Million</td>
+<td>3% Increase in Magic Evasion</td>
+<td>1% Decrease in Evasion and Accuracy</td>
+</tr>
+<tr>
+<td>6</td>
+<td>10 PSP</td>
+<td>130 Million</td>
+<td>5% Increase in Magic Evasion</td>
+<td>1% Decrease in Evasion and Accuracy</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<br>
+<div class="d-flex flex-lg-row flex-column">
+<div class="text-center"><img src="../images/skills/Robust.jpg"></div>
+<div class="pl-lg-3">
+<div class="h4text mt-2 text-center text-lg-left">Robust</div>
+<div class="blockquote text-center text-lg-left">It is wel known that people who specialize in strength, dont have a large MP as they cannot afford to have items which grant Intelligence over strength.</div>
+<div class="table-responsive">
+<table class="table itemtable">
+<tbody>
+<tr>
+<th>Skill Level</th>
+<th>Required PSP</th>
+<th>Required Woonz</th>
+<th>Positive Effect</th>
+<th>Negative Effect</th>
+</tr>
+<tr>
+<td>1</td>
+<td>2 PSP</td>
+<td>6 Million</td>
+<td>HP Increased by 40</td>
+<td>MP Decreased by 20</td>
+</tr>
+<tr>
+<td>2</td>
+<td>2 PSP</td>
+<td>6 Million</td>
+<td>HP Increased by 40</td>
+<td>MP Decreased by 10</td>
+</tr>
+<tr>
+<td>3</td>
+<td>4 PSP</td>
+<td>12 Million</td>
+<td>HP Increased by 40</td>
+<td>MP Decreased by 10</td>
+</tr>
+<tr>
+<td>4</td>
+<td>5 PSP</td>
+<td>24 Million</td>
+<td>HP Increased by 120</td>
+<td>MP Decreased by 20</td>
+</tr>
+<tr>
+<td>5</td>
+<td>7 PSP</td>
+<td>36 Million</td>
+<td>HP Increased by 160</td>
+<td>MP Decreased by 20</td>
+</tr>
+<tr>
+<td>6</td>
+<td>11 PSP</td>
+<td>150 Million</td>
+<td>HP Increased by 200</td>
+<td>MP Decreased by 40</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<br>
+<div class="d-flex flex-lg-row flex-column">
+<div class="text-center"><img src="../images/skills/Intelligence.jpg"></div>
+<div class="pl-lg-3">
+<div class="h4text mt-2 text-center text-lg-left">Intelligence</div>
+<div class="blockquote text-center text-lg-left">It is well known that people who specialize in intelligence, dont have a large HP as they cannot afford to have items which grant strength over intelligence.</div>
+<div class="table-responsive">
+<table class="table itemtable">
+<tbody>
+<tr>
+<th>Skill Level</th>
+<th>Required PSP</th>
+<th>Required Woonz</th>
+<th>Positive Effect</th>
+<th>Negative Effect</th>
+</tr>
+<tr>
+<td>1</td>
+<td>1 PSP</td>
+<td>5 Million</td>
+<td>MP Increased by 40</td>
+<td>HP Decreased by 20</td>
+</tr>
+<tr>
+<td>2</td>
+<td>1 PSP</td>
+<td>5 Million</td>
+<td>MP Increased by 40</td>
+<td>HP Decreased by 10</td>
+</tr>
+<tr>
+<td>3</td>
+<td>2 PSP</td>
+<td>10 Million</td>
+<td>MP Increased by 40</td>
+<td>HP Decreased by 10</td>
+</tr>
+<tr>
+<td>4</td>
+<td>5 PSP</td>
+<td>20 Million</td>
+<td>MP Increased by 120</td>
+<td>HP Decreased by 20</td>
+</tr>
+<tr>
+<td>5</td>
+<td>5 PSP</td>
+<td>30 Million</td>
+<td>MP Increased by 160</td>
+<td>HP Decreased by 20</td>
+</tr>
+<tr>
+<td>6</td>
+<td>5 PSP</td>
+<td>100 Million</td>
+<td>MP Increased by 200</td>
+<td>HP Decreased by 40</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<br>
+<div class="d-flex flex-lg-row flex-column">
+<div class="text-center"><img src="../images/skills/Fatality.jpg"></div>
+<div class="pl-lg-3">
+<div class="h4text mt-2 text-center text-lg-left">Fatality</div>
+<div class="blockquote text-center text-lg-left">In order to deal damage to heavily armored warriors, many specialize in Fatality Moves, however Fatality based fight styles are countered by other fatality moves.</div>
+<div class="table-responsive">
+<table class="table itemtable">
+<tbody>
+<tr>
+<th>Skill Level</th>
+<th>Required PSP</th>
+<th>Required Woonz</th>
+<th>Positive Effect</th>
+<th>Negative Effect</th>
+</tr>
+<tr>
+<td>1</td>
+<td>2 PSP</td>
+<td>6 Million</td>
+<td>1% Increase in Success of Critical Hit</td>
+<td>-</td>
+</tr>
+<tr>
+<td>2</td>
+<td>2 PSP</td>
+<td>6 Million</td>
+<td>1% Increase in Success of Critical Hit</td>
+<td>-</td>
+</tr>
+<tr>
+<td>3</td>
+<td>4 PSP</td>
+<td>12 Million</td>
+<td>2% Increase in Success of Critical Hit</td>
+<td>1% Decrease in Evading Critical Hit</td>
+</tr>
+<tr>
+<td>4</td>
+<td>6 PSP</td>
+<td>24 Million</td>
+<td>2% Increase in Success of Critical Hit</td>
+<td>-</td>
+</tr>
+<tr>
+<td>5</td>
+<td>8 PSP</td>
+<td>36 Million</td>
+<td>3% Increase in Success of Critical Hit</td>
+<td>1% Decrease in Evading Critical Hit</td>
+</tr>
+<tr>
+<td>6</td>
+<td>12 PSP</td>
+<td>150 Million</td>
+<td>5% Increase in Success of Critical Hit</td>
+<td>1% Decrease in Evading Critical Hit</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<br>
+<div class="d-flex flex-lg-row flex-column">
+<div class="text-center"><img src="../images/skills/Fortune.jpg"></div>
+<div class="pl-lg-3">
+<div class="h4text mt-2 text-center text-lg-left">Fortune</div>
+<div class="blockquote text-center text-lg-left">It is well known that, a person who seeks to increase their evasion must sacrifice their attack.</div>
+<div class="table-responsive">
+<table class="table itemtable">
+<tbody>
+<tr>
+<th>Skill Level</th>
+<th>Required PSP</th>
+<th>Required Woonz</th>
+<th>Positive Effect</th>
+<th>Negative Effect</th>
+</tr>
+<tr>
+<td>1</td>
+<td>1 PSP</td>
+<td>5 Million</td>
+<td>2% Increase in Evading Critical Hit</td>
+<td>1% Decrease in Success of Critical Hit</td>
+</tr>
+<tr>
+<td>2</td>
+<td>2 PSP</td>
+<td>5 Million</td>
+<td>2% Increase in Evading Critical Hit</td>
+<td>1% Decrease in Success of Critical Hit</td>
+</tr>
+<tr>
+<td>3</td>
+<td>4 PSP</td>
+<td>10 Million</td>
+<td>3% Increase in Evading Critical Hit</td>
+<td>1% Decrease in Success of Critical Hit</td>
+</tr>
+<tr>
+<td>4</td>
+<td>4 PSP</td>
+<td>20 Million</td>
+<td>3% Increase in Evading Critical Hit</td>
+<td>1% Decrease in Success of Critical Hit</td>
+</tr>
+<tr>
+<td>5</td>
+<td>5 PSP</td>
+<td>30 Million</td>
+<td>4% Increase in in Evading Critical Hit</td>
+<td>1% Decrease in Success of Critical Hit</td>
+</tr>
+<tr>
+<td>6</td>
+<td>10 PSP</td>
+<td>130 Million</td>
+<td>6% Increase in in Evading Critical Hit</td>
+<td>1% Decrease in Success of Critical Hit</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<br>
+<div class="d-flex flex-lg-row flex-column">
+<div class="text-center"><img src="../images/skills/Armory.jpg"></div>
+<div class="pl-lg-3">
+<div class="h4text mt-2 text-center text-lg-left">Armory</div>
+<div class="blockquote text-center text-lg-left"> Armor which increases defense, makes it incredibly difficult to attack or cast spells.</div>
+<div class="table-responsive">
+<table class="table itemtable">
+<tbody>
+<tr>
+<th>Skill Level</th>
+<th>Required PSP</th>
+<th>Required Woonz</th>
+<th>Positive Effect</th>
+<th>Negative Effect</th>
+</tr>
+<tr>
+<td>1</td>
+<td>1 PSP</td>
+<td>5 Million</td>
+<td>Increase in Defense by 8</td>
+<td>Decrease in Attack and Magic Power by 2</td>
+</tr>
+<tr>
+<td>2</td>
+<td>1 PSP</td>
+<td>5 Million</td>
+<td>Increase in Defense by 8</td>
+<td>Decrease in Attack and Magic Power by 2</td>
+</tr>
+<tr>
+<td>3</td>
+<td>2 PSP</td>
+<td>10 Million</td>
+<td>Increase in Defense by 8</td>
+<td>Decrease in Attack and Magic Power by 2</td>
+</tr>
+<tr>
+<td>4</td>
+<td>5 PSP</td>
+<td>20 Million</td>
+<td>Increase in Defense by 24</td>
+<td>Decrease in Attack and Magic Power by 3</td>
+</tr>
+<tr>
+<td>5</td>
+<td>5 PSP</td>
+<td>30 Million</td>
+<td>Increase in Defense by 24</td>
+<td>Decrease in Attack and Magic Power by 6</td>
+</tr>
+<tr>
+<td>6</td>
+<td>10 PSP</td>
+<td>130 Million</td>
+<td>Increase in Defense by 48</td>
+<td>Decrease in Attack and Magic Power by 9</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<br>
+<div class="d-flex flex-lg-row flex-column">
+<div class="text-center"><img src="../images/skills/Maestro.jpg"></div>
+<div class="pl-lg-3">
+<div class="h4text mt-2 text-center text-lg-left">Maestro</div>
+<div class="blockquote text-center text-lg-left">This skill increases the success rate of crafting and reduces the success rate of enchanting.</div>
+<div class="table-responsive">
+<table class="table itemtable">
+<tbody>
+<tr>
+<th>Skill Level</th>
+<th>Required PSP</th>
+<th>Required Woonz</th>
+<th>Positive Effect</th>
+<th>Negative Effect</th>
+</tr>
+<tr>
+<td>1</td>
+<td>1 PSP</td>
+<td>30 Million</td>
+<td>1% Increase in Success in Rate of Crafting</td>
+<td>1% Decrease in Success in Rate of Enchanting</td>
+</tr>
+<tr>
+<td>2</td>
+<td>1 PSP</td>
+<td>30 Million</td>
+<td>1% Increase in Success in Rate of Crafting</td>
+<td>1% Decrease in Success in Rate of Enchanting</td>
+</tr>
+<tr>
+<td>3</td>
+<td>2 PSP</td>
+<td>50 Million</td>
+<td>1% Increase in Success in Rate of Crafting</td>
+<td>1% Decrease in Success in Rate of Enchanting</td>
+</tr>
+<tr>
+<td>4</td>
+<td>5 PSP</td>
+<td>120 Million</td>
+<td>3% Increase in Success in Rate of Crafting</td>
+<td>3% Decrease in Success in Rate of Enchanting</td>
+</tr>
+<tr>
+<td>5</td>
+<td>5 PSP</td>
+<td>250 Million</td>
+<td>3% Increase in Success in Rate of Crafting</td>
+<td>3% Decrease in Success in Rate of Enchanting</td>
+</tr>
+<tr>
+<td>6</td>
+<td>10 PSP</td>
+<td>400 Million</td>
+<td>4% Increase in Success in Rate of Crafting</td>
+<td>4% Decrease in Success in Rate of Enchanting</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<br>
+<div class="d-flex flex-lg-row flex-column">
+<div class="text-center"><img src="../images/skills/Enchanter.jpg"></div>
+<div class="pl-lg-3">
+<div class="h4text mt-2 text-center text-lg-left">Enchanter</div>
+<div class="blockquote text-center text-lg-left">This skill increases the success rate of enchanting and reduces the success rate of crafting.</div>
+<div class="table-responsive">
+<table class="table itemtable">
+<tbody>
+<tr>
+<th>Skill Level</th>
+<th>Required PSP</th>
+<th>Required Woonz</th>
+<th>Positive Effect</th>
+<th>Negative Effect</th>
+</tr>
+<tr>
+<td>1</td>
+<td>1 PSP</td>
+<td>30 Million</td>
+<td>1% Increase in Success in Rate of Enchanting</td>
+<td>1% Decrease in Success in Rate of Crafting</td>
+</tr>
+<tr>
+<td>2</td>
+<td>1 PSP</td>
+<td>30 Million</td>
+<td>1% Increase in Success in Rate of Enchanting</td>
+<td>1% Decrease in Success in Rate of Crafting</td>
+</tr>
+<tr>
+<td>3</td>
+<td>2 PSP</td>
+<td>50 Million</td>
+<td>2% Increase in Success in Rate of Enchanting</td>
+<td>2% Decrease in Success in Rate of Crafting</td>
+</tr>
+<tr>
+<td>4</td>
+<td>5 PSP</td>
+<td>120 Million</td>
+<td>3% Increase in Success in Rate of Enchanting</td>
+<td>3% Decrease in Success in Rate of Crafting</td>
+</tr>
+<tr>
+<td>5</td>
+<td>5 PSP</td>
+<td>250 Million</td>
+<td>3% Increase in Success Rate of Enchanting</td>
+<td>3% Decrease in Success in Rate of Enchanting</td>
+</tr>
+<tr>
+<td>6</td>
+<td>10 PSP</td>
+<td>400 Million</td>
+<td>4% Increase in Success in Rate of Enchanting</td>
+<td>4% Decrease in Success in Rate of Enchanting</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<br>
+<div class="d-flex flex-lg-row flex-column">
+<div class="text-center"><img src="../images/skills/Greed.jpg"></div>
+<div class="pl-lg-3">
+<div class="h4text mt-2 text-center text-lg-left">Greed</div>
+<div class="blockquote text-center text-lg-left">Greed is bad for everyone, it causes the person affected by it to isolate themselves from their shue, resulting in stunted growth</div>
+<div class="table-responsive">
+<table class="table itemtable">
+<tbody>
+<tr>
+<th>Skill Level</th>
+<th>Required PSP</th>
+<th>Required Woonz</th>
+<th>Positive Effect</th>
+<th>Negative Effect</th>
+</tr>
+<tr>
+<td>1</td>
+<td>1 PSP</td>
+<td>10 Million</td>
+<td>Woonz Gained Increased by 50</td>
+<td>Shue Experience Rate Reduced by 1</td>
+</tr>
+<tr>
+<td>2</td>
+<td>1 PSP</td>
+<td>10 Million</td>
+<td>Woonz Gained Increased by 50</td>
+<td>Shue Experience Rate Reduced by 1</td>
+</tr>
+<tr>
+<td>3</td>
+<td>2 PSP</td>
+<td>50 Million</td>
+<td>Woonz Gained Increased by 100</td>
+<td>Shue Experience Rate Reduced by 1</td>
+</tr>
+<tr>
+<td>4</td>
+<td>5 PSP</td>
+<td>80 Million</td>
+<td>Woonz Gained Increased by 100</td>
+<td>Shue Experience Rate Reduced by 1</td>
+</tr>
+<tr>
+<td>5</td>
+<td>5 PSP</td>
+<td>120 Million</td>
+<td>Woonz Gained Increased by 100</td>
+<td>Shue Experience Rate Reduced by 1</td>
+</tr>
+<tr>
+<td>6</td>
+<td>10 PSP</td>
+<td>1 Billion</td>
+<td>Woonz Gained Increased by 600</td>
+<td>Shue Experience Rate Reduced by 1</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<br>
+<div class="d-flex flex-lg-row flex-column">
+<div class="text-center"><img src="../images/skills/EarlyBird.jpg"></div>
+<div class="pl-lg-3">
+<div class="h4text mt-2 text-center text-lg-left">Early Bird</div>
+<div class="blockquote text-center text-lg-left">The Growth of a Shue is more valuable than Woonz itself.</div>
+<div class="table-responsive">
+<table class="table itemtable">
+<tbody>
+<tr>
+<th>Skill Level</th>
+<th>Required PSP</th>
+<th>Required Woonz</th>
+<th>Positive Effect</th>
+<th>Negative Effect</th>
+</tr>
+<tr>
+<td>1</td>
+<td>1 PSP</td>
+<td>10 Million</td>
+<td>Increase in Shue Experience Rate by 1</td>
+<td>Woonz Gained Decreased by 50</td>
+</tr>
+<tr>
+<td>2</td>
+<td>1 PSP</td>
+<td>20 Million</td>
+<td>Increase in Shue Experience Rate by 1</td>
+<td>Woonz Gained Decreased by 50</td>
+</tr>
+<tr>
+<td>3</td>
+<td>2 PSP</td>
+<td>50 Million</td>
+<td>Increase in Shue Experience Rate by 1</td>
+<td>Woonz Gained Decreased by 100</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<br>
+<div class="h4text"><span class="justify-content-center justify-content-lg-start">Warrior Passives</span></div>
+<p class="text-center text-lg-left"> The following are the passives which are only available to Warrior Class.</p>
+<br>
+<div class="d-flex flex-lg-row flex-column">
+<div class="text-center"><img src="../images/skills/SwordMastery.jpg"></div>
+<div class="pl-lg-3">
+<div class="h4text mt-2 text-center text-lg-left">Sword Mastery</div>
+<div class="blockquote text-center text-lg-left">For those who prefer Sword over Spears and Axes</div>
+<div class="table-responsive">
+<table class="table itemtable">
+<tbody>
+<tr>
+<th>Skill Level</th>
+<th>Required PSP</th>
+<th>Required Woonz</th>
+<th>Positive Effect</th>
+<th>Negative Effect</th>
+</tr>
+<tr>
+<td>1</td>
+<td>1 PSP</td>
+<td>5 Million</td>
+<td>Increase in Attack Power of Swords by 8</td>
+<td>-</td>
+</tr>
+<tr>
+<td>2</td>
+<td>1 PSP</td>
+<td>5 Million</td>
+<td>Increase in Attack Power of Swords by 8</td>
+<td>-</td>
+</tr>
+<tr>
+<td>3</td>
+<td>2 PSP</td>
+<td>10 Million</td>
+<td>Increase in Attack Power of Swords by 8</td>
+<td>1% Decrease in Magic Evasion and Accuracy</td>
+</tr>
+<tr>
+<td>4</td>
+<td>5 PSP</td>
+<td>20 Million</td>
+<td>Increase in Attack Power of Swords by 24</td>
+<td>-</td>
+</tr>
+<tr>
+<td>5</td>
+<td>5 PSP</td>
+<td>300 Million</td>
+<td>Increase in Attack Power of Swords by 24</td>
+<td>1% Decrease in Magic Evasion and Accuracy</td>
+</tr>
+<tr>
+<td>6</td>
+<td>10 PSP</td>
+<td>130 Million</td>
+<td>Increase in Attack Power of Swords by 48</td>
+<td>1% Decrease in Magic Evasion and Accuracy</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<br>
+<div class="d-flex flex-lg-row flex-column">
+<div class="text-center"><img src="../images/skills/SpearMastery.jpg"></div>
+<div class="pl-lg-3">
+<div class="h4text mt-2 text-center text-lg-left">Spear Mastery</div>
+<div class="blockquote text-center text-lg-left">For those who prefer Spears over Swords and Axes.</div>
+<div class="table-responsive">
+<table class="table itemtable">
+<tbody>
+<tr>
+<th>Skill Level</th>
+<th>Required PSP</th>
+<th>Required Woonz</th>
+<th>Positive Effect</th>
+<th>Negative Effect</th>
+</tr>
+<tr>
+<td>1</td>
+<td>1 PSP</td>
+<td>5 Million</td>
+<td>Increase in Attack Power of Spear by 8</td>
+<td>-</td>
+</tr>
+<tr>
+<td>2</td>
+<td>1 PSP</td>
+<td>5 Million</td>
+<td>Increase in Attack Power of Spear by 8</td>
+<td>-</td>
+</tr>
+<tr>
+<td>3</td>
+<td>2 PSP</td>
+<td>10 Million</td>
+<td>Increase in Attack Power of Spear by 8</td>
+<td>1% Decrease in Evasion and Accuracy</td>
+</tr>
+<tr>
+<td>4</td>
+<td>5 PSP</td>
+<td>20 Million</td>
+<td>Increase in Attack Power of Spear by 24</td>
+<td>-</td>
+</tr>
+<tr>
+<td>5</td>
+<td>5 PSP</td>
+<td>30 Million</td>
+<td>Increase in Attack Power of Spear by 24</td>
+<td>1% Decrease in Evasion and Accuracy</td>
+</tr>
+<tr>
+<td>6</td>
+<td>10 PSP</td>
+<td>130 Million</td>
+<td>Increase in Attack Power of Spear by 48</td>
+<td>1% Decrease in Evasion and Accuracy</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<br>
+<div class="d-flex flex-lg-row flex-column">
+<div class="text-center"><img src="../images/skills/AxeMastery.jpg"></div>
+<div class="pl-lg-3">
+<div class="h4text mt-2 text-center text-lg-left">Axe Mastery</div>
+<div class="blockquote text-center text-lg-left">For those who prefer Axes over Swords and Spears</div>
+<div class="table-responsive">
+<table class="table itemtable">
+<tbody>
+<tr>
+<th>Skill Level</th>
+<th>Required PSP</th>
+<th>Required Woonz</th>
+<th>Positive Effect</th>
+<th>Negative Effect</th>
+</tr>
+<tr>
+<td>1</td>
+<td>1 PSP</td>
+<td>5 Million</td>
+<td>Increase in Attack Power of Axes by 8</td>
+<td>-</td>
+</tr>
+<tr>
+<td>2</td>
+<td>1 PSP</td>
+<td>5 Million</td>
+<td>Increase in Attack Power of Axes by 8</td>
+<td>-</td>
+</tr>
+<tr>
+<td>3</td>
+<td>2 PSP</td>
+<td>10 Million</td>
+<td>Increase in Attack Power of Axes by 8</td>
+<td>1% Decrease in Evasion and Magic Evasion</td>
+</tr>
+<tr>
+<td>4</td>
+<td>5 PSP</td>
+<td>20 Million</td>
+<td>Increase in Attack Power of Axes by 24</td>
+<td>-</td>
+</tr>
+<tr>
+<td>5</td>
+<td>5 PSP</td>
+<td>30 Million</td>
+<td>Increase in Attack Power of Axes by 24</td>
+<td>1% Decrease in Evasion and Magic Evasion</td>
+</tr>
+<tr>
+<td>6</td>
+<td>10 PSP</td>
+<td>130 Million</td>
+<td>Increase in Attack Power of Axes by 48</td>
+<td>1% Decrease in Evasion and Magic Evasion</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<br>
+<div class="h4text"><span class="justify-content-center justify-content-lg-start">Mage Passives</span></div>
+<p class="text-center text-lg-left"> These are the passives available only to the Mage Class.</p>
+<div class="d-flex flex-lg-row flex-column">
+<div class="text-center"><img src="../images/skills/NonElemental.jpg"></div>
+<div class="pl-lg-3">
+<div class="h4text mt-2 text-center text-lg-left">Non-Elemental Mastery</div>
+<div class="blockquote text-center text-lg-left">For those mages who are proficient at Non-Elemental Magic</div>
+<div class="table-responsive">
+<table class="table itemtable">
+<tbody>
+<tr>
+<th>Skill Level</th>
+<th>Required PSP</th>
+<th>Required Woonz</th>
+<th>Positive Effect</th>
+<th>Negative Effect</th>
+</tr> 
+<tr>
+<td>1</td>
+<td>1 PSP</td>
+<td>5 Million</td>
+<td>Increase in Attack Power of Non-Elemental Staff by 20</td>
+<td>-</td>
+</tr>
+<tr>
+<td>2</td>
+<td>1 PSP</td>
+<td>5 Million</td>
+<td>Increase in Attack Power of Non-Elemental Staff by 20</td>
+<td>-</td>
+</tr>
+<tr>
+<td>3</td>
+<td>2 PSP</td>
+<td>10 Million</td>
+<td>Increase in Attack Power of Non-Elemental Staff by 20</td>
+<td>1% Decrease in Magic Evasion and Success of Critical Hit Rate</td>
+</tr>
+<tr>
+<td>4</td>
+<td>5 PSP</td>
+<td>20 Million</td>
+<td>Increase in Attack Power of Non-Elemental Staff by 40</td>
+<td>-</td>
+</tr>
+<tr>
+<td>5</td>
+<td>5 PSP</td>
+<td>30 Million</td>
+<td>Increase in Attack Power of Non-Elemental Staff by 50</td>
+<td>1% Decrease in Magic Evasion and Success of Critical Hit Rate</td>
+</tr>
+<tr>
+<td>6</td>
+<td>10 PSP</td>
+<td>130 Million</td>
+<td>Increase in Attack Power of Non-Elemental Staff by 90</td>
+<td>1% Decrease in Magic Evasion and Success of Critical Hit Rate</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<br>
+<div class="d-flex flex-lg-row flex-column">
+<div class="text-center"><img src="../images/skills/Elemental.jpg"></div>
+<div class="pl-lg-3">
+<div class="h4text mt-2 text-center text-lg-left">Elemental Mastery</div>
+<div class="blockquote text-center text-lg-left">For those mages who are proficient at Elemental Magic</div>
+<div class="table-responsive">
+<table class="table itemtable">
+<tbody>
+<tr>
+<th>Skill Level</th>
+<th>Required PSP</th>
+<th>Required Woonz</th>
+<th>Positive Effect</th>
+<th>Negative Effect</th>
+</tr>
+<tr>
+<td>1</td>
+<td>1 PSP</td>
+<td>5 Million</td>
+<td>Increase in Attack Power of Elemental Staff by 20</td>
+<td>-</td>
+</tr>
+<tr>
+<td>2</td>
+<td>1 PSP</td>
+<td>5 Million</td>
+<td>Increase in Attack Power of Elemental Staff by 20</td>
+<td>-</td>
+</tr>
+<tr>
+<td>3</td>
+<td>2 PSP</td>
+<td>10 Million</td>
+<td>Increase in Attack Power of Elemental Staff by 20</td>
+<td>1% Decrease in Evasion and Magic Evasion</td>
+</tr>
+<tr>
+<td>4</td>
+<td>5 PSP</td>
+<td>20 Million</td>
+<td>Increase in Attack Power of Elemental Staff by 40</td>
+<td>-</td>
+</tr>
+<tr>
+<td>5</td>
+<td>5 PSP</td>
+<td>30 Million</td>
+<td>Increase in Attack Power of Elemental Staff by 50</td>
+<td>1% Decrease in Evasion and Magic Evasion</td>
+</tr>
+<tr>
+<td>6</td>
+<td>10 PSP</td>
+<td>130 Million</td>
+<td>Increase in Attack Power of Elemental Staff by 90</td>
+<td>1% Decrease in Evasion and Magic Evasion</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<br>
+<div class="h4text"><span class="justify-content-center justify-content-lg-start">Holy Knight Passives</span></div>
+<p class="text-center text-lg-left">These are the available passives for Holy Knights.</p>
+<div class="d-flex flex-lg-row flex-column">
+<div class="text-center"><img src="../images/skills/MagicalSword.jpg"></div>
+<div class="pl-lg-3">
+<div class="h4text mt-2 text-center text-lg-left">Magical Sword Mastery</div>
+<div class="blockquote text-center text-lg-left">For Holy Knights proficient in the usage of Swords.</div>
+<div class="table-responsive">
+<table class="table itemtable">
+<tbody>
+<tr>
+<th>Skill Level</th>
+<th>Required PSP</th>
+<th>Required Woonz</th>
+<th>Positive Effect</th>
+<th>Negative Effect</th>
+</tr>
+<tr>
+<td>1</td>
+<td>1 PSP</td>
+<td>5 Million</td>
+<td>Increase in Attack Power of Magical Sword by 8</td>
+<td>-</td>
+</tr>
+<tr>
+<td>2</td>
+<td>1 PSP</td>
+<td>5 Million</td>
+<td>Increase in Attack Power of Magical Sword by 8</td>
+<td>-</td>
+</tr>
+<tr>
+<td>3</td>
+<td>2 PSP</td>
+<td>10 Million</td>
+<td>Increase in Attack Power of Magical Sword by 8</td>
+<td>1% Decrease in Evasion and Magic Evasion</td>
+</tr>
+<tr>
+<td>4</td>
+<td>5 PSP</td>
+<td>20 Million</td>
+<td>Increase in Attack Power of Magical Sword by 24</td>
+<td>-</td>
+</tr>
+<tr>
+<td>5</td>
+<td>5 PSP</td>
+<td>30 Million</td>
+<td>Increase in Attack Power of Magical Sword by 24</td>
+<td>1% Decrease in Evasion and Magic Evasion</td>
+</tr>
+<tr>
+<td>6</td>
+<td>10 PSP</td>
+<td>130 Million</td>
+<td>Increase in Attack Power of Magical Sword by 48</td>
+<td>1% Decrease in Evasion and Magic Evasion</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<br>
+<div class="d-flex flex-lg-row flex-column">
+<div class="text-center"><img src="../images/skills/BluntMastery.jpg"></div>
+<div class="pl-lg-3">
+<div class="h4text mt-2 text-center text-lg-left">Blunt Mastery</div>
+<div class="blockquote text-center text-lg-left">For Holy Knights proficient in the usage of Maces.</div>
+<div class="table-responsive">
+<table class="table itemtable">
+<tbody>
+<tr>
+<th>Skill Level</th>
+<th>Required PSP</th>
+<th>Required Woonz</th>
+<th>Positive Effect</th>
+<th>Negative Effect</th>
+<tr>
+<td>1</td>
+<td>1 PSP</td>
+<td>5 Million</td>
+<td>Increase in Attack Power of Maces by 8</td>
+<td>-</td>
+</tr>
+<tr>
+<td>2</td>
+<td>1 PSP</td>
+<td>5 Million</td>
+<td>Increase in Attack Power of Maces by 8</td>
+<td>-</td>
+</tr>
+<tr>
+<td>3</td>
+<td>2 PSP</td>
+<td>10 Million</td>
+<td>Increase in Attack Power of Maces by 8</td>
+<td>1% Decrease in Magic Evasion and Accuracy</td>
+</tr>
+<tr>
+<td>4</td>
+<td>5 PSP</td>
+<td>20 Million</td>
+<td>Increase in Attack Power of Maces by 24</td>
+<td>-</td>
+</tr>
+<tr>
+<td>5</td>
+<td>5 PSP</td>
+<td>300 Million</td>
+<td>Increase in Attack Power of Maces by 24</td>
+<td>1% Decrease in Magic Evasion and Accuracy</td>
+</tr>
+<tr>
+<td>6</td>
+<td>10 PSP</td>
+<td>130 Million</td>
+<td>Increase in Attack Power of Maces by 48</td>
+<td>1% Decrease in Magic Evasion and Accuracy</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<br>
+<div class="h4text"><span class="justify-content-center justify-content-lg-start">Archer Passives</span></div>
+<p class="text-center text-lg-left">These are the available Passives for the Archer Class.</p>
+<div class="d-flex flex-lg-row flex-column">
+<div class="text-center"><img src="../images/skills/BowMastery.jpg"></div>
+<div class="pl-lg-3">
+<div class="h4text mt-2 text-center text-lg-left">Bow Mastery</div>
+<div class="blockquote text-center text-lg-left">For Archers proficient in the usage of Bow.</div>
+<div class="table-responsive">
+<table class="table itemtable">
+<tbody>
+<tr>
+<th>Skill Level</th>
+<th>Required PSP</th>
+<th>Required Woonz</th>
+<th>Positive Effect</th>
+<th>Negative Effect</th>
+<tr>
+<td>1</td>
+<td>1 PSP</td>
+<td>5 Million</td>
+<td>Increase in Attack Power of Bow by 12</td>
+<td>-</td>
+</tr>
+<tr>
+<td>2</td>
+<td>1 PSP</td>
+<td>5 Million</td>
+<td>Increase in Attack Power of Bow by 8</td>
+<td>-</td>
+</tr>
+<tr>
+<td>3</td>
+<td>2 PSP</td>
+<td>10 Million</td>
+<td>Increase in Attack Power of Bow by 12</td>
+<td>1% Decrease in Magic Evasion and Critical Hit Evasion</td>
+</tr>
+<tr>
+<td>4</td>
+<td>5 PSP</td>
+<td>20 Million</td>
+<td>Increase in Attack Power of Bow by 24</td>
+<td>-</td>
+</tr>
+<tr>
+<td>5</td>
+<td>5 PSP</td>
+<td>300 Million</td>
+<td>Increase in Attack Power of Bow by 32</td>
+<td>1% Decrease in Magic Evasion and Critical Hit Evasion</td>
+</tr>
+<tr>
+<td>6</td>
+<td>10 PSP</td>
+<td>130 Million</td>
+<td>Increase in Attack Power of Bow by 44</td>
+<td>1% Decrease in Magic Evasion and Critical Hit Evasion</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<br>
+<div class="d-flex flex-lg-row flex-column">
+<div class="text-center"><img src="../images/skills/CBowMastery.jpg"></div>
+<div class="pl-lg-3">
+<div class="h4text mt-2 text-center text-lg-left"> Crossbow Mastery</div>
+<div class="blockquote text-center text-md-left text-lg-left text-center text-md-left text-lg-left">For Archers proficient in the usage of Crossbow.</div>
+<div class="table-responsive">
+<table class="table itemtable">
+<tbody>
+<tr>
+<th>Skill Level</th>
+<th>Required PSP</th>
+<th>Required Woonz</th>
+<th>Positive Effect</th>
+<th>Negative Effect</th>
+<tr>
+<td>1</td>
+<td>1 PSP</td>
+<td>5 Million</td>
+<td>Increase in Attack Power of Crossbow by 12</td>
+<td>-</td>
+</tr>
+<tr>
+<td>2</td>
+<td>1 PSP</td>
+<td>5 Million</td>
+<td>Increase in Attack Power of Crossbow by 8</td>
+<td>-</td>
+</tr>
+<tr>
+<td>3</td>
+<td>2 PSP</td>
+<td>10 Million</td>
+<td>Increase in Attack Power of Crossbow by 12</td>
+<td>1% Decrease in Magic Evasion and Evasion</td>
+</tr>
+<tr>
+<td>4</td>
+<td>5 PSP</td>
+<td>20 Million</td>
+<td>Increase in Attack Power of Crossbow by 24</td>
+<td>-</td>
+</tr>
+<tr>
+<td>5</td>
+<td>5 PSP</td>
+<td>300 Million</td>
+<td>Increase in Attack Power of Crossbow by 32</td>
+<td>1% Decrease in Magic Evasion and Evasion</td>
+</tr>
+<tr>
+<td>6</td>
+<td>10 PSP</td>
+<td>130 Million</td>
+<td>Increase in Attack Power of Crossbow by 44</td>
+<td>1% Decrease in Magic Evasion and Evasion</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div></div></div>
+</div>
+
+<div class="bottombar p-0">
+<div class="d-flex flex-nowrap flex-row px-2 align-items-center h-100">
+<div class="flex-grow-1">
+<a href="../index.html" class="mx-2">Home</a>
+<a href="../cdn-cgi/l/email-protection.html#c2a3f1b1b7b2b2adb0b682a3f1abaca6aba3eca1adaf" class="mx-2">Contact</a>
+</div>
+<div class="mx-2">&copy; A3 Guide</div>
+</div>
+<p><a href="passive-skills.html#top" id="top-link" class="scrollup"></a></p>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

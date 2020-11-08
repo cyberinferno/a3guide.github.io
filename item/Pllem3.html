@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta charset="UTF-8">
+<meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#D0322C">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pllem3 - Item - A3 Guide</title>
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=PT+Sans">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+
+<link rel="stylesheet" type="text/css" href="../css/styles.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="../js/scroll.js"></script>
+</head>
+<body>
+<script language="javascript">
+$(document).ready(function()
+{
+     TooltipBind();
+});
+function TooltipBind() {
+	$('.itempopup').each(function() {
+		 $(this).tooltip({
+				html: true,
+				animation: true,
+				trigger: 'hover',
+				title: $('#' +  $(this).attr('name')).html(),
+				placement: 'bottom',
+				boundary: 'viewport',
+				container: 'body'
+		 });
+ });
+}
+</script>
+<div id="maincontent">
+<div class="container-fluid page-wrap p-0">
+
+<div class="logo h-auto text-center text-lg-left pl-lg-5 pb-lg-5"><img src="../images/logo.png" class="img-fluid"></div>
+
+
+
+<nav class="navbar mainnav navbar-expand-lg navbar-dark">
+<span class="navbar-brand m-0 p-0 pt-2"><div class="h2text d-lg-none">Items</div></span>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav w-100 mainnavul pb-0">
+<li class="nav-item flex-fill">
+<a class="nav-link" href="../installing/index.html">Installing</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../characters/index.html">Characters</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../beginner-guide/index.html">Beginner Guide</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../advanced-guide/index.html">Advanced Guide</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../weapons/index.html">Weapons</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../armors/index.html">Armors</a>
+</li><li class="nav-item flex-fill active">
+<a class="nav-link" href="../items/index.html">Items</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../skills/index.html">Skills</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../maps/index.html">Maps</a>
+</li><li class="nav-item flex-fill ">
+<a class="nav-link" href="../quests/index.html">Quests</a>
+</li> </ul>
+</div>
+</nav>
+
+
+<div class="pane">
+<div class="pagetitle pt-2 pb-2"><div class="d-none d-lg-block">Items</div></div>
+<div class="container-fluid p-0 m-0">
+<div class="row m-0">
+<div class="vertnavbar col-lg-3 p-0 m-0">
+<nav class="navbar vertnav mainnav navbar-expand-lg navbar-dark flex-lg-column align-items-start align-items-lg-center">
+<span class="navbar-brand m-0 p-0 pt-2 navtext d-lg-none">Necklaces</span>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav1">
+<ul class="navbar-nav w-100 mainnavul pb-0 flex-column align-self-start">
+<div class="h4text"><span>By Type</span></div>
+<li class="nav-item flex-fill"><a class="nav-link" href="../items/Runes.html">Runes</a></li>
+<li class="nav-item flex-fill"><a class="nav-link" href="../items/Gems.html">Gems</a></li>
+<li class="nav-item flex-fill"><a class="nav-link" href="../items/Rings.html">Rings</a></li>
+<li class="nav-item flex-fill"><a class="nav-link" href="../items/Necklaces.html">Necklaces</a></li>
+<li class="nav-item flex-fill"><a class="nav-link" href="../items/Potions.html">Potions</a></li>
+<li class="nav-item flex-fill"><a class="nav-link" href="../items/Ores.html">Ores</a></li>
+<li class="nav-item flex-fill"><a class="nav-link" href="../items/Misc.html">Misc</a></li>
+</ul>
+</div>
+</nav>
+</div>
+<div class="pageinfo col-lg-9 col-md-12 p-2 m-0"><div class="d-flex flex-column-reverse flex-md-row m-0"><div class="mb-2 w-100"><div class="h2text text-center text-md-left">Pllem3</div><div class="text-white mb-3"><div class="d-flex flex-column flex-md-row no-gutters"><div class="text-center text-md-left invimg"><img src="data:image/jpeg;base64,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"></div><div class="pl-md-2"><p class="text-center text-light text-md-left p-0">Necklace</p> <p class="text-center text-success text-md-left p-0">Buy Price: 55,000</p></div></div></div></div></div><div class="h4text text-center text-md-left mt-2">Item Properties</div><div class="table-responsive"><div class="itemtable">
+<table class="table itemtable">
+<tr><th>Level Required</th><th>Attack</th><th>Ice Attack</th>
+<th>Fire Attack</th>
+<th>Lightning Attack</th></tr><tr><td>100</td><td>26</td><td>14</td><td>14</td><td>14</td></tr></table></div></div><div class="soldby">
+<div class="h4text text-center text-md-left mt-2"><span class="justify-content-center justify-content-md-start">Sold By</span></div>
+<div class="row"><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../npcs/Petbren.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Petbren</div>
+<div class="text-center text-lg-left"><img src="../images/npc/Petbren.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../npcs/Billero.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Billero</div>
+<div class="text-center text-lg-left"><img src="../images/npc/Billero.jpg" alt="" width="180" height="180"></div>
+</a></div></div></div><div style="display: none;"></div>
+</div>
+
+<div class="bottombar p-0">
+<div class="d-flex flex-nowrap flex-row px-2 align-items-center h-100">
+<div class="flex-grow-1">
+<a href="../index.html" class="mx-2">Home</a>
+<a href="../cdn-cgi/l/email-protection.html#167725656366667964625677257f78727f773875797b" class="mx-2">Contact</a>
+</div>
+<div class="mx-2">&copy; A3 Guide</div>
+</div>
+<p><a href="Pllem3.html#top" id="top-link" class="scrollup"></a></p>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

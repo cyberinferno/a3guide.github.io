@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta charset="UTF-8">
+<meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#D0322C">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Small Juego - Item - A3 Guide</title>
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=PT+Sans">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+
+<link rel="stylesheet" type="text/css" href="../css/styles.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="../js/scroll.js"></script>
+</head>
+<body>
+<script language="javascript">
+$(document).ready(function()
+{
+     TooltipBind();
+});
+function TooltipBind() {
+	$('.itempopup').each(function() {
+		 $(this).tooltip({
+				html: true,
+				animation: true,
+				trigger: 'hover',
+				title: $('#' +  $(this).attr('name')).html(),
+				placement: 'bottom',
+				boundary: 'viewport',
+				container: 'body'
+		 });
+ });
+}
+</script>
+<div id="maincontent">
+<div class="container-fluid page-wrap p-0">
+
+<div class="logo h-auto text-center text-lg-left pl-lg-5 pb-lg-5"><img src="../images/logo.png" class="img-fluid"></div>
+
+
+
+<nav class="navbar mainnav navbar-expand-lg navbar-dark">
+<span class="navbar-brand m-0 p-0 pt-2"><div class="h2text d-lg-none">Items</div></span>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav w-100 mainnavul pb-0">
+<li class="nav-item flex-fill">
+<a class="nav-link" href="../installing/index.html">Installing</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../characters/index.html">Characters</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../beginner-guide/index.html">Beginner Guide</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../advanced-guide/index.html">Advanced Guide</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../weapons/index.html">Weapons</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../armors/index.html">Armors</a>
+</li><li class="nav-item flex-fill active">
+<a class="nav-link" href="../items/index.html">Items</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../skills/index.html">Skills</a>
+</li><li class="nav-item flex-fill">
+<a class="nav-link" href="../maps/index.html">Maps</a>
+</li><li class="nav-item flex-fill ">
+<a class="nav-link" href="../quests/index.html">Quests</a>
+</li> </ul>
+</div>
+</nav>
+
+
+<div class="pane">
+<div class="pagetitle pt-2 pb-2"><div class="d-none d-lg-block">Items</div></div>
+<div class="container-fluid p-0 m-0">
+<div class="row m-0">
+<div class="vertnavbar col-lg-3 p-0 m-0">
+<nav class="navbar vertnav mainnav navbar-expand-lg navbar-dark flex-lg-column align-items-start align-items-lg-center">
+<span class="navbar-brand m-0 p-0 pt-2 navtext d-lg-none">Gems</span>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav1">
+<ul class="navbar-nav w-100 mainnavul pb-0 flex-column align-self-start">
+<div class="h4text"><span>By Type</span></div>
+<li class="nav-item flex-fill"><a class="nav-link" href="../items/Runes.html">Runes</a></li>
+<li class="nav-item flex-fill"><a class="nav-link" href="../items/Gems.html">Gems</a></li>
+<li class="nav-item flex-fill"><a class="nav-link" href="../items/Rings.html">Rings</a></li>
+<li class="nav-item flex-fill"><a class="nav-link" href="../items/Necklaces.html">Necklaces</a></li>
+<li class="nav-item flex-fill"><a class="nav-link" href="../items/Potions.html">Potions</a></li>
+<li class="nav-item flex-fill"><a class="nav-link" href="../items/Ores.html">Ores</a></li>
+<li class="nav-item flex-fill"><a class="nav-link" href="../items/Misc.html">Misc</a></li>
+</ul>
+</div>
+</nav>
+</div>
+<div class="pageinfo col-lg-9 col-md-12 p-2 m-0"><div class="d-flex flex-column-reverse flex-md-row m-0"><div class="mb-2 w-100"><div class="h2text text-center text-md-left">Small Juego</div><div class="text-white mb-3"><div class="d-flex flex-column flex-md-row no-gutters"><div class="text-center text-md-left invimg"><img src="data:image/jpeg;base64,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"></div><div class="pl-md-2"><p class="text-center text-light text-md-left p-0">Used to Upgrade the item level<br />
+Can be used to Upgrade from Level 5 to Level 8 <p class="text-center text-danger text-md-left p-0">Sell Price: 25,000</p></div></div></div></div><div class="text-center mb-2"><img class="img-fluid border border-light item-img" src="../images/items/Small-Juego.jpg"></div></div><div class="droppedby">
+<div class="h4text text-center text-md-left mt-2"><span class="justify-content-center justify-content-md-start">Dropped By</span></div>
+<div class="row"><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Hwamar.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Hwamar</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Hwamar.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Kumanon.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Kumanon</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Kumanon.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Kukadon.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Kukadon</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Kukadon.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Moulek.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Moulek</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Moulek.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Parak.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Parak</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Parak.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Grou.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Grou</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Grou.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Dark-Memora.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Dark Memora</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Dark-Memora.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Staff-Hemmerd.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Staff Hemmerd</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Staff-Hemmerd.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Templer.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Templer</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Templer.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Landell-Hound.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Landell Hound</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Landell-Hound.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Torturer.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Torturer</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Torturer.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Dark-Saint.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Dark Saint</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Dark-Saint.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Higel.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Higel</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Higel.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Vobug.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Vobug</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Vobug.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Sonos.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Sonos</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Sonos.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Khun.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Khun</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Khun.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Lirox.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Lirox</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Lirox.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Ewealla.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Ewealla</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Ewealla.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Yahgon.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Yahgon</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Yahgon.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Hautz.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Hautz</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Hautz.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Statue-Kartere.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Statue Kartere</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Statue-Kartere.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Dark-Olgoc.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Dark Olgoc</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Dark-Olgoc.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Dark-Harpy.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Dark Harpy</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Dark-Harpy.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Doomed-Moulek.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Doomed Moulek</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Doomed-Moulek.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Metheia.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Metheia</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Metheia.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Kasthol.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Kasthol</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Kasthol.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Jakaka.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Jakaka</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Jakaka.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Yatake.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Yatake</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Yatake.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Demeratone.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Demeratone</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Demeratone.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Hell-Vonoy.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Hell Vonoy</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Hell-Vonoy.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Dark-Polk.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Dark Polk</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Dark-Polk.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Foman.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Foman</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Foman.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Rontu.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Rontu</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Rontu.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Wimos.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Wimos</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Wimos.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Lalon.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Lalon</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Lalon.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Ellma.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Ellma</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Ellma.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Muddian.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Muddian</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Muddian.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Herene.html" class="text-decoration-none">
+ <div class="h4text text-center text-lg-left">Herene</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Herene.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Hell-Yatake.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Hell Yatake</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Hell-Yatake.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Dark-Demeratone.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Dark Demeratone</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Dark-Demeratone.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Cynick.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Cynick</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Cynick.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Pellton.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Pellton</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Pellton.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Tizor.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Tizor</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Tizor.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Cullijpayehn.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Cullijpayehn</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Cullijpayehn.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Jaloch.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Jaloch</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Jaloch.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Qihnuj.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Qihnuj</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Qihnuj.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Ihnhukes.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Ihnhukes</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Ihnhukes.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Niflgha.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Niflgha</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Niflgha.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Khalthar.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Khalthar</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Khalthar.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Taunhut.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Taunhut</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Taunhut.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Grnita-Olgoc.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Grnita Olgoc</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Olgoc.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Grnita-Harpy.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Grnita Harpy</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Harpy.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Grnita-Moulek.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Grnita Moulek</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Moulek.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Grnita-Metheia.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Grnita Metheia</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Metheia.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Grnita-Kasthol.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Grnita Kasthol</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Kasthol.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Grnita-Jakaka.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Grnita Jakaka</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Jakaka.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Grnita-Khun.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Grnita Khun</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Khun.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Grnita-Ewealla.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Grnita Ewealla</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Ewealla.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Grnita-Yahgon.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Grnita Yahgon</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Yahgon.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Grnita-Hautz.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Grnita Hautz</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Hautz.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Grnita-Vobug.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Grnita Vobug</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Vobug.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Grnita-Higel.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Grnita Higel</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Higel.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Grnita-Cynick.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Grnita Cynick</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Cynick.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Grnita-Pellton.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Grnita Pellton</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Pellton.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Grnita-Demeratone.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Grnita Demeratone</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Demeratone.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Grnita-Yatake.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Grnita Yatake</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Yatake.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Grnita-Niflgha.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Grnita Niflgha</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Niflgha.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Grnita-Khalthar.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Grnita Khalthar</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Khalthar.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Grnita-Ihnhukes.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Grnita Ihnhukes</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Ihnhukes.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Grnita-Taunhut.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Grnita Taunhut</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Taunhut.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/EsHigel.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">EsHigel</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/EsHigel.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/EsKhun.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">EsKhun</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/EsKhun.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/EsYahgon.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">EsYahgon</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/EsYahgon.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/EsVonoy.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">EsVonoy</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/EsVonoy.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/EsJakaka.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">EsJakaka</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/EsJakaka.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Graybone.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Graybone</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Graybone.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Khainen.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Khainen</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Khainen.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Lledeeg.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Lledeeg</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Lledeeg.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Kelledeegs.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Kelledeegs</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Kelledeegs.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Manteenn.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Manteenn</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Manteenn.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Manteess.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Manteess</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Manteess.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Manteedaigg.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Manteedaigg</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Manteedaigg.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/EsKelledeegs.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">EsKelledeegs</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/EsKelledeegs.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Zenshernarr.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Zenshernarr</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Zenshernarr.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Aner.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Aner</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Aner.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Papusue.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Papusue</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Papusue.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Heville.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Heville</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Heville.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Hevillunne.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Hevillunne</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Hevillunne.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/EsAner.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">EsAner</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/EsAner.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Behizn.html" class="text-decoration-none">
+ <div class="h4text text-center text-lg-left">Behizn</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Behizn.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Beharg.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Beharg</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Beharg.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Berekerr.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Berekerr</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Berekerr.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Kellownerr.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Kellownerr</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Kellownerr.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Kelltaffu.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Kelltaffu</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Kelltaffu.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/EsBerekerr.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">EsBerekerr</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/EsBerekerr.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Grangachi.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Grangachi</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Grangachi.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/TeKac.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">TeKac</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/TeKac.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Mellita.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Mellita</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Mellita.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Skicaboreck.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Skicaboreck</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Skicaboreck.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Makarra.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Makarra</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Makarra.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Parmurribe.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Parmurribe</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Parmurribe.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Sirenarr.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Sirenarr</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Sirenarr.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Dlanast.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Dlanast</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Dlanast.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Kuscarr.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Kuscarr</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Kuscarr.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Razbojnik.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Razbojnik</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Razbojnik.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Deneris.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Deneris</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Deneris.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Denerian.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Denerian</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Denerian.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Sebyer.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Sebyer</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Sebyer.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Sean.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Sean</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Sean.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Halialshean.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Halialshean</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Halialshean.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Yvette.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Yvette</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Yvette.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Figalce.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Figalce</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Figalce.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Aedisha.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Aedisha</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Aedisha.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Terijael.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Terijael</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Terijael.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Ranias.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Ranias</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Ranias.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Garr.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Garr</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Garr.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Leckey.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Leckey</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Leckey.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Purr.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Purr</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Purr.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Blatskege.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Blatskege</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Blatskege.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Pulpikan.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Pulpikan</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Pulpikan.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Banshiu.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Banshiu</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Banshiu.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Erlen.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Erlen</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Erlen.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Scarab.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Scarab</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Scarab.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Isilwen.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Isilwen</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Isilwen.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Keon.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Keon</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Keon.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Mozma.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Mozma</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Mozma.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Fljod.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Fljod</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Fljod.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Eel.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Eel</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Eel.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Irkade-Ur.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Irkade Ur</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Irkade-Ur.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Irkade-Ken.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Irkade Ken</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Irkade-Ken.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Irkade-Hagall.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Irkade Hagall</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Irkade-Hagall.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Thrymgjor.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Thrymgjor</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Thrymgjor.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Hildasal.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Hildasal</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Hildasal.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Hildanoe.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Hildanoe</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Hildanoe.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Hildahel.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Hildahel</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Hildahel.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Venessa.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Venessa</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Venessa.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Skeleton.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Skeleton</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Skeleton.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Semeuso.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Semeuso</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Semeuso.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Keteal.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Keteal</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Keteal.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Ilan.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Ilan</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Ilan.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Echunang.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Echunang</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Echunang.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Forn-Khallhiash.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Forn Khallhiash</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Forn-Khallhiash.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Arr-Khallhiash.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Arr Khallhiash</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Arr-Khallhiash.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Phameino.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Phameino</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Phameino.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Arr-Phameino.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Arr Phameino</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Arr-Phameino.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Di-Phameino.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Di Phameino</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Di-Phameino.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Chemos.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Chemos</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Chemos.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Mencejstri.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Mencejstri</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Mencejstri.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Kralj.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Kralj</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Kralj.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Duskamiu.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Duskamiu</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Duskamiu.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Goshualeng.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Goshualeng</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Goshualeng.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Gunge.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Gunge</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Gunge.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Kuazer.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Kuazer</div>
+ <div class="text-center text-lg-left"><img src="../images/monsters/Kuazer.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Amra.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Amra</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Amra.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Irkade-Mann.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Irkade Mann</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Irkade-Mann.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Hildaseal.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Hildaseal</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Hildaseal.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Releone.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Releone</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Releone.jpg" alt="" width="180" height="180"></div>
+</a></div><div class="col-lg-4 col-md-6 d-flex flex-column p-3 pl-4">
+<a href="../monster/Daphnegale.html" class="text-decoration-none">
+<div class="h4text text-center text-lg-left">Daphnegale</div>
+<div class="text-center text-lg-left"><img src="../images/monsters/Daphnegale.jpg" alt="" width="180" height="180"></div>
+</a></div></div></div><div style="display: none;"></div>
+</div>
+
+<div class="bottombar p-0">
+<div class="d-flex flex-nowrap flex-row px-2 align-items-center h-100">
+<div class="flex-grow-1">
+<a href="../index.html" class="mx-2">Home</a>
+<a href="../cdn-cgi/l/email-protection.html#234210505653534c51576342104a4d474a420d404c4e" class="mx-2">Contact</a>
+</div>
+<div class="mx-2">&copy; A3 Guide</div>
+</div>
+<p><a href="Small-Juego.html#top" id="top-link" class="scrollup"></a></p>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
